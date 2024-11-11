@@ -38,7 +38,7 @@ function App() {
           ))}
         </ul>
         <div>
-          <h3 className='scroll-alert'>Scroll horizontally...</h3>
+          <h3 className='scroll-alert'>Scroll horizontally ...</h3>
         </div>
       </main>
     </>
