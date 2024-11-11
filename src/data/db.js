@@ -5,8 +5,8 @@ export const db = [
         pinyin: 'líng',
         spanish: 'cero',
         category: 'número',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 2,
@@ -14,8 +14,8 @@ export const db = [
         pinyin: 'yī',
         spanish: 'uno',
         category: 'número',
-        image: './src/assets/images/img_2.png',
-        audio: './src/assets/audios/audio_2.mp3'
+        image: './src/assets/images/img2.png',
+        audio: './src/assets/audios/audio2.mp3'
     },
     {
         id: 3,
@@ -23,8 +23,8 @@ export const db = [
         pinyin: 'èr',
         spanish: 'dos',
         category: 'número',
-        image: './src/assets/images/img_3.png',
-        audio: './src/assets/audios/audio_3.mp3'
+        image: './src/assets/images/img3.png',
+        audio: './src/assets/audios/audio3.mp3'
     },
     {
         id: 4,
@@ -32,8 +32,8 @@ export const db = [
         pinyin: 'liǎng',
         spanish: 'dos',
         category: 'número',
-        image: './src/assets/images/img_3.png',
-        audio: './src/assets/audios/audio_4.mp3'
+        image: './src/assets/images/img3.png',
+        audio: './src/assets/audios/audio4.mp3'
     },
     {
         id: 5,
@@ -41,8 +41,8 @@ export const db = [
         pinyin: 'sān',
         spanish: 'tres',
         category: 'número',
-        image: './src/assets/images/img_4.png',
-        audio: './src/assets/audios/audio_5.mp3'
+        image: './src/assets/images/img4.png',
+        audio: './src/assets/audios/audio5.mp3'
     },
     {
         id: 6,
@@ -50,8 +50,8 @@ export const db = [
         pinyin: 'sì',
         spanish: 'cuatro',
         category: 'número',
-        image: './src/assets/images/img_5.png',
-        audio: './src/assets/audios/audio_6.mp3'
+        image: './src/assets/images/img5.png',
+        audio: './src/assets/audios/audio6.mp3'
     },
     {
         id: 7,
@@ -59,8 +59,8 @@ export const db = [
         pinyin: 'wǔ',
         spanish: 'cinco',
         category: 'número',
-        image: './src/assets/images/img_6.png',
-        audio: './src/assets/audios/audio_7.mp3'
+        image: './src/assets/images/img6.png',
+        audio: './src/assets/audios/audio7.mp3'
     },
     {
         id: 8,
@@ -68,8 +68,8 @@ export const db = [
         pinyin: 'liù',
         spanish: 'seis',
         category: 'número',
-        image: './src/assets/images/img_7.png',
-        audio: './src/assets/audios/audio_8.mp3'
+        image: './src/assets/images/img7.png',
+        audio: './src/assets/audios/audio8.mp3'
     },
     {
         id: 9,
@@ -77,8 +77,8 @@ export const db = [
         pinyin: 'qī',
         spanish: 'siete',
         category: 'número',
-        image: './src/assets/images/img_8.png',
-        audio: './src/assets/audios/audio_9.mp3'
+        image: './src/assets/images/img8.png',
+        audio: './src/assets/audios/audio9.mp3'
     },
     {
         id: 10,
@@ -86,8 +86,8 @@ export const db = [
         pinyin: 'bā',
         spanish: 'ocho',
         category: 'número',
-        image: './src/assets/images/img_9.png',
-        audio: './src/assets/audios/audio_10.mp3'
+        image: './src/assets/images/img9.png',
+        audio: './src/assets/audios/audio10.mp3'
     },
     {
         id: 11,
@@ -95,8 +95,8 @@ export const db = [
         pinyin: 'jiǔ',
         spanish: 'nueve',
         category: 'número',
-        image: './src/assets/images/img_10.png',
-        audio: './src/assets/audios/audio_11.mp3'
+        image: './src/assets/images/img10.png',
+        audio: './src/assets/audios/audio11.mp3'
     },
     {
         id: 12,
@@ -104,8 +104,8 @@ export const db = [
         pinyin: 'shí',
         spanish: 'diez',
         category: 'número',
-        image: './src/assets/images/img_11.png',
-        audio: './src/assets/audios/audio_12.mp3'
+        image: './src/assets/images/img11.png',
+        audio: './src/assets/audios/audio12.mp3'
     },
     {
         id: 13,
@@ -113,8 +113,8 @@ export const db = [
         pinyin: 'bǎi',
         spanish: 'cien',
         category: 'número',
-        image: './src/assets/images/img_12.png',
-        audio: './src/assets/audios/audio_13.mp3'
+        image: './src/assets/images/img12.png',
+        audio: './src/assets/audios/audio13.mp3'
     },
     {
         id: 14,
@@ -122,8 +122,8 @@ export const db = [
         pinyin: 'qiān',
         spanish: 'mil',
         category: 'número',
-        image: './src/assets/images/img_13.png',
-        audio: './src/assets/audios/audio_14.mp3'
+        image: './src/assets/images/img13.png',
+        audio: './src/assets/audios/audio14.mp3'
     },
     {
         id: 15,
@@ -131,8 +131,8 @@ export const db = [
         pinyin: 'wàn',
         spanish: 'diez mil',
         category: 'número',
-        image: './src/assets/images/img_14.png',
-        audio: './src/assets/audios/audio_15.mp3'
+        image: './src/assets/images/img14.png',
+        audio: './src/assets/audios/audio15.mp3'
     },
     {
         id: 16,
@@ -140,8 +140,8 @@ export const db = [
         pinyin: 'wǒ',
         spanish: 'yo',
         category: 'pronombre personal',
-        image: './src/assets/images/img_15.png',
-        audio: './src/assets/audios/audio_16.mp3'
+        image: './src/assets/images/img15.png',
+        audio: './src/assets/audios/audio16.mp3'
     },
     {
         id: 17,
@@ -149,8 +149,8 @@ export const db = [
         pinyin: 'nǐ',
         spanish: 'tú',
         category: 'pronombre personal',
-        image: './src/assets/images/img_16.png',
-        audio: './src/assets/audios/audio_17.mp3'
+        image: './src/assets/images/img16.png',
+        audio: './src/assets/audios/audio17.mp3'
     },
     {
         id: 18,
@@ -158,8 +158,8 @@ export const db = [
         pinyin: 'nín',
         spanish: 'usted',
         category: 'pronombre personal',
-        image: './src/assets/images/img_16.png',
-        audio: './src/assets/audios/audio_18.mp3'
+        image: './src/assets/images/img16.png',
+        audio: './src/assets/audios/audio18.mp3'
     },
     {
         id: 19,
@@ -167,8 +167,8 @@ export const db = [
         pinyin: 'tā',
         spanish: 'él',
         category: 'pronombre personal',
-        image: './src/assets/images/img_17.png',
-        audio: './src/assets/audios/audio_19.mp3'
+        image: './src/assets/images/img17.png',
+        audio: './src/assets/audios/audio19.mp3'
     },
     {
         id: 20,
@@ -176,8 +176,8 @@ export const db = [
         pinyin: 'tā',
         spanish: 'ella',
         category: 'pronombre personal',
-        image: './src/assets/images/img_18.png',
-        audio: './src/assets/audios/audio_19.mp3'
+        image: './src/assets/images/img18.png',
+        audio: './src/assets/audios/audio19.mp3'
     },
     {
         id: 21,
@@ -185,8 +185,8 @@ export const db = [
         pinyin: 'zhè gè',
         spanish: 'esto',
         category: 'pronombre personal',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_20.m4a'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio20.m4a'
     },
     {
         id: 22,
@@ -194,8 +194,8 @@ export const db = [
         pinyin: 'nà gè',
         spanish: 'eso',
         category: 'pronombre personal',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_21.m4a'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio21.m4a'
     },
     {
         id: 23,
@@ -203,8 +203,8 @@ export const db = [
         pinyin: 'wǒ men',
         spanish: 'nosotros',
         category: 'pronombre personal',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_22.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio22.mp3'
     },
     {
         id: 24,
@@ -212,8 +212,8 @@ export const db = [
         pinyin: 'nǐ men',
         spanish: 'ustedes',
         category: 'pronombre personal',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_23.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio23.mp3'
     },
     {
         id: 25,
@@ -221,8 +221,8 @@ export const db = [
         pinyin: 'tā men',
         spanish: 'ellos',
         category: 'pronombre personal',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_24.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio24.mp3'
     },
     {
         id: 26,
@@ -230,8 +230,8 @@ export const db = [
         pinyin: 'tā men',
         spanish: 'ellas',
         category: 'pronombre personal',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_24.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio24.mp3'
     },
     {
         id: 27,
@@ -239,8 +239,8 @@ export const db = [
         pinyin: 'xiǎng',
         spanish: 'querer / extrañar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 28,
@@ -248,8 +248,8 @@ export const db = [
         pinyin: 'xǐ huān',
         spanish: 'gustar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 29,
@@ -257,8 +257,8 @@ export const db = [
         pinyin: 'shì',
         spanish: 'ser',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 30,
@@ -266,8 +266,8 @@ export const db = [
         pinyin: 'ài',
         spanish: 'amar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_28.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio28.mp3'
     },
     {
         id: 31,
@@ -275,8 +275,8 @@ export const db = [
         pinyin: 'yǒu',
         spanish: 'tener / haber',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 32,
@@ -284,8 +284,8 @@ export const db = [
         pinyin: 'qù',
         spanish: 'ir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 33,
@@ -293,8 +293,8 @@ export const db = [
         pinyin: 'zuò',
         spanish: 'hacer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 34,
@@ -302,8 +302,8 @@ export const db = [
         pinyin: 'yòng',
         spanish: 'usar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 35,
@@ -311,8 +311,8 @@ export const db = [
         pinyin: 'zài',
         spanish: 'estar / en',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 36,
@@ -320,8 +320,8 @@ export const db = [
         pinyin: 'huì',
         spanish: 'saber / poder',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 37,
@@ -329,8 +329,8 @@ export const db = [
         pinyin: 'néng',
         spanish: 'poder',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 38,
@@ -338,8 +338,8 @@ export const db = [
         pinyin: 'gěi',
         spanish: 'dar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 39,
@@ -347,8 +347,8 @@ export const db = [
         pinyin: 'xué',
         spanish: 'estudiar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 40,
@@ -356,8 +356,8 @@ export const db = [
         pinyin: 'wèn',
         spanish: 'preguntar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 41,
@@ -365,8 +365,8 @@ export const db = [
         pinyin: 'xiě',
         spanish: 'escribir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 42,
@@ -374,8 +374,8 @@ export const db = [
         pinyin: 'dú',
         spanish: 'leer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 43,
@@ -383,8 +383,8 @@ export const db = [
         pinyin: 'kàn',
         spanish: 'mirar / ver / leer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 44,
@@ -392,8 +392,8 @@ export const db = [
         pinyin: 'shuō',
         spanish: 'hablar / decir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 45,
@@ -401,8 +401,8 @@ export const db = [
         pinyin: 'lái',
         spanish: 'venir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 46,
@@ -410,8 +410,8 @@ export const db = [
         pinyin: 'huí',
         spanish: 'volver',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 47,
@@ -419,8 +419,8 @@ export const db = [
         pinyin: 'guò',
         spanish: 'pasar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 48,
@@ -428,8 +428,8 @@ export const db = [
         pinyin: 'tīng',
         spanish: 'escuchar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 49,
@@ -437,8 +437,8 @@ export const db = [
         pinyin: 'chàng',
         spanish: 'cantar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 50,
@@ -446,8 +446,8 @@ export const db = [
         pinyin: 'chī',
         spanish: 'comer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 51,
@@ -455,8 +455,8 @@ export const db = [
         pinyin: 'hē',
         spanish: 'beber',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 52,
@@ -464,8 +464,8 @@ export const db = [
         pinyin: 'yào',
         spanish: 'querer / tener que',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 53,
@@ -473,8 +473,8 @@ export const db = [
         pinyin: 'kāi',
         spanish: 'prender / abrir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 54,
@@ -482,8 +482,8 @@ export const db = [
         pinyin: 'guān',
         spanish: 'apagar / cerrar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 55,
@@ -491,8 +491,8 @@ export const db = [
         pinyin: 'kāi shǐ',
         spanish: 'empezar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 56,
@@ -500,8 +500,8 @@ export const db = [
         pinyin: 'děng',
         spanish: 'esperar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 57,
@@ -509,8 +509,8 @@ export const db = [
         pinyin: 'zhǎo',
         spanish: 'buscar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 58,
@@ -518,8 +518,8 @@ export const db = [
         pinyin: 'cāi',
         spanish: 'adivinar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 59,
@@ -527,8 +527,8 @@ export const db = [
         pinyin: 'gǎi biàn',
         spanish: 'cambiar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 60,
@@ -536,8 +536,8 @@ export const db = [
         pinyin: 'bāng',
         spanish: 'ayudar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 61,
@@ -545,8 +545,8 @@ export const db = [
         pinyin: 'qīn',
         spanish: 'besar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 62,
@@ -554,8 +554,8 @@ export const db = [
         pinyin: 'mǎi',
         spanish: 'comprar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 63,
@@ -563,8 +563,8 @@ export const db = [
         pinyin: 'mài',
         spanish: 'vender',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 64,
@@ -572,8 +572,8 @@ export const db = [
         pinyin: 'zhù',
         spanish: 'vivir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 65,
@@ -581,8 +581,8 @@ export const db = [
         pinyin: 'zū',
         spanish: 'alquilar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 66,
@@ -590,8 +590,8 @@ export const db = [
         pinyin: 'dào',
         spanish: 'llegar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 67,
@@ -599,8 +599,8 @@ export const db = [
         pinyin: 'ràng',
         spanish: 'dejar / permitir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 68,
@@ -608,8 +608,8 @@ export const db = [
         pinyin: 'gào su',
         spanish: 'avisar / advertir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 69,
@@ -617,8 +617,8 @@ export const db = [
         pinyin: 'jué de',
         spanish: 'creer / sentir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 70,
@@ -626,8 +626,8 @@ export const db = [
         pinyin: 'yīng gāi',
         spanish: 'deber',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 71,
@@ -635,8 +635,8 @@ export const db = [
         pinyin: 'xuǎn',
         spanish: 'elegir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 72,
@@ -644,8 +644,8 @@ export const db = [
         pinyin: 'gōng zuò',
         spanish: 'trabajar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 73,
@@ -653,8 +653,8 @@ export const db = [
         pinyin: 'zǒu',
         spanish: 'caminar / irse',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 74,
@@ -662,8 +662,8 @@ export const db = [
         pinyin: 'pǎo',
         spanish: 'correr',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 75,
@@ -671,8 +671,8 @@ export const db = [
         pinyin: 'zhuī',
         spanish: 'perseguir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 76,
@@ -680,8 +680,8 @@ export const db = [
         pinyin: 'shàng',
         spanish: 'subir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 77,
@@ -689,8 +689,8 @@ export const db = [
         pinyin: 'xià',
         spanish: 'bajar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 78,
@@ -698,8 +698,8 @@ export const db = [
         pinyin: 'chuān',
         spanish: 'vestir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 79,
@@ -707,8 +707,8 @@ export const db = [
         pinyin: 'dài',
         spanish: 'llevar / traer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 80,
@@ -716,8 +716,8 @@ export const db = [
         pinyin: 'mō',
         spanish: 'tocar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 81,
@@ -725,8 +725,8 @@ export const db = [
         pinyin: 'shǔ',
         spanish: 'contar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 82,
@@ -734,8 +734,8 @@ export const db = [
         pinyin: 'tiào wǔ',
         spanish: 'bailar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 83,
@@ -743,8 +743,8 @@ export const db = [
         pinyin: 'jìn',
         spanish: 'entrar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 84,
@@ -752,8 +752,8 @@ export const db = [
         pinyin: 'chū',
         spanish: 'salir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 85,
@@ -761,8 +761,8 @@ export const db = [
         pinyin: 'qǐ lái',
         spanish: 'levantarse',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 86,
@@ -770,8 +770,8 @@ export const db = [
         pinyin: 'fàng',
         spanish: 'poner',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 87,
@@ -779,8 +779,8 @@ export const db = [
         pinyin: 'huàn',
         spanish: 'cambiar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 88,
@@ -788,8 +788,8 @@ export const db = [
         pinyin: 'jué dìng',
         spanish: 'decidir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 89,
@@ -797,8 +797,8 @@ export const db = [
         pinyin: 'qǔ xiāo',
         spanish: 'cancelar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 90,
@@ -806,8 +806,8 @@ export const db = [
         pinyin: 'zhī dào',
         spanish: 'saber',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 91,
@@ -815,8 +815,8 @@ export const db = [
         pinyin: 'rèn shi',
         spanish: 'conocer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 92,
@@ -824,8 +824,8 @@ export const db = [
         pinyin: 'míng bái',
         spanish: 'entender',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 93,
@@ -833,8 +833,8 @@ export const db = [
         pinyin: 'jiē',
         spanish: 'contestar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 94,
@@ -842,8 +842,8 @@ export const db = [
         pinyin: 'huí dá',
         spanish: 'responder',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 95,
@@ -851,8 +851,8 @@ export const db = [
         pinyin: 'dāng',
         spanish: 'convertirse en',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 96,
@@ -860,8 +860,8 @@ export const db = [
         pinyin: 'dǒng',
         spanish: 'entender',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 97,
@@ -869,8 +869,8 @@ export const db = [
         pinyin: 'wán',
         spanish: 'jugar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 98,
@@ -878,8 +878,8 @@ export const db = [
         pinyin: 'sā huǎng',
         spanish: 'mentir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 99,
@@ -887,8 +887,8 @@ export const db = [
         pinyin: 'piàn',
         spanish: 'engañar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 100,
@@ -896,8 +896,8 @@ export const db = [
         pinyin: 'dǎ rǎo',
         spanish: 'molestar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 101,
@@ -905,8 +905,8 @@ export const db = [
         pinyin: 'xiū xí',
         spanish: 'descansar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 102,
@@ -914,8 +914,8 @@ export const db = [
         pinyin: 'shuì jiào',
         spanish: 'dormir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 103,
@@ -923,8 +923,8 @@ export const db = [
         pinyin: 'xǐ zǎo',
         spanish: 'bañar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 104,
@@ -932,8 +932,8 @@ export const db = [
         pinyin: 'dǎ sǎo',
         spanish: 'limpiar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 105,
@@ -941,8 +941,8 @@ export const db = [
         pinyin: 'xǐ liǎn',
         spanish: 'lavarse la cara',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 106,
@@ -950,8 +950,8 @@ export const db = [
         pinyin: 'xǐ shǒu',
         spanish: 'lavarse las manos',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 107,
@@ -959,8 +959,8 @@ export const db = [
         pinyin: 'shuā yá',
         spanish: 'lavarse los dientes',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 108,
@@ -968,8 +968,8 @@ export const db = [
         pinyin: 'shì',
         spanish: 'probar / intentar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 109,
@@ -977,8 +977,8 @@ export const db = [
         pinyin: 'cháng',
         spanish: 'probar / degustar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 110,
@@ -986,8 +986,8 @@ export const db = [
         pinyin: 'wéi xiào',
         spanish: 'sonreír',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 111,
@@ -995,8 +995,8 @@ export const db = [
         pinyin: 'xiào',
         spanish: 'reír',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 112,
@@ -1004,8 +1004,8 @@ export const db = [
         pinyin: 'kū',
         spanish: 'llorar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 113,
@@ -1013,8 +1013,8 @@ export const db = [
         pinyin: 'pà',
         spanish: 'temer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 114,
@@ -1022,8 +1022,8 @@ export const db = [
         pinyin: 'zhǎng',
         spanish: 'aparentar / verse',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 115,
@@ -1031,8 +1031,8 @@ export const db = [
         pinyin: 'gǎn dòng',
         spanish: 'conmover / emocionar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 116,
@@ -1040,8 +1040,8 @@ export const db = [
         pinyin: 'xiāng xìn',
         spanish: 'creer',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 117,
@@ -1049,8 +1049,8 @@ export const db = [
         pinyin: 'zhǔn bèi',
         spanish: 'preparar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 118,
@@ -1058,8 +1058,8 @@ export const db = [
         pinyin: 'xī wàng',
         spanish: 'esperar que',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 119,
@@ -1067,8 +1067,8 @@ export const db = [
         pinyin: 'jì de',
         spanish: 'recordar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 120,
@@ -1076,8 +1076,8 @@ export const db = [
         pinyin: 'wàng jì',
         spanish: 'olvidar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 121,
@@ -1085,8 +1085,8 @@ export const db = [
         pinyin: 'xū yào',
         spanish: 'necesitar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 122,
@@ -1094,8 +1094,8 @@ export const db = [
         pinyin: 'kǎo lǜ',
         spanish: 'considerar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 123,
@@ -1103,8 +1103,8 @@ export const db = [
         pinyin: 'dǎ suàn',
         spanish: 'planear',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 124,
@@ -1112,8 +1112,8 @@ export const db = [
         pinyin: 'liáo',
         spanish: 'conversar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 125,
@@ -1121,8 +1121,8 @@ export const db = [
         pinyin: 'yuē',
         spanish: 'tener una cita',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 126,
@@ -1130,8 +1130,8 @@ export const db = [
         pinyin: 'fù qián',
         spanish: 'pagar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 127,
@@ -1139,8 +1139,8 @@ export const db = [
         pinyin: 'fēn xiǎng',
         spanish: 'compartir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 128,
@@ -1148,8 +1148,8 @@ export const db = [
         pinyin: 'làng fèi',
         spanish: 'desperdiciar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 129,
@@ -1157,8 +1157,8 @@ export const db = [
         pinyin: 'zuò',
         spanish: 'sentarse',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 130,
@@ -1166,8 +1166,8 @@ export const db = [
         pinyin: 'huān yíng',
         spanish: 'dar la bienvenida',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 131,
@@ -1175,8 +1175,8 @@ export const db = [
         pinyin: 'shōu dào',
         spanish: 'recibir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 132,
@@ -1184,8 +1184,8 @@ export const db = [
         pinyin: 'jiē',
         spanish: 'recoger',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 133,
@@ -1193,8 +1193,8 @@ export const db = [
         pinyin: 'qǐng kè',
         spanish: 'invitar (pagar)',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 134,
@@ -1202,8 +1202,8 @@ export const db = [
         pinyin: 'jì xù',
         spanish: 'seguir / continuar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 135,
@@ -1211,8 +1211,8 @@ export const db = [
         pinyin: 'chéng gōng',
         spanish: 'triunfar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 136,
@@ -1220,8 +1220,8 @@ export const db = [
         pinyin: 'fàng qì',
         spanish: 'rendirse',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 137,
@@ -1229,8 +1229,8 @@ export const db = [
         pinyin: 'tóng yì',
         spanish: 'aceptar / estar de acuerdo',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 138,
@@ -1238,8 +1238,8 @@ export const db = [
         pinyin: 'jiān chí',
         spanish: 'persistir',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 139,
@@ -1247,8 +1247,8 @@ export const db = [
         pinyin: 'guàng jiē',
         spanish: 'pasear (shopping)',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 140,
@@ -1256,8 +1256,8 @@ export const db = [
         pinyin: 'huái yí',
         spanish: 'sospechar',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     },
     {
         id: 141,
@@ -1265,7 +1265,7 @@ export const db = [
         pinyin: 'wù huì',
         spanish: 'malentender',
         category: 'verbo',
-        image: './src/assets/images/img_1.png',
-        audio: './src/assets/audios/audio_1.mp3'
+        image: './src/assets/images/img1.png',
+        audio: './src/assets/audios/audio1.mp3'
     }
 ]
