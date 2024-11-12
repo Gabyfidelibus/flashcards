@@ -17,7 +17,7 @@ export default function SingleCard ({card, handleClick, flipped}) {
                     <p className="chinese">{card.chinese}</p>
                     <p className="pinyin">{card.pinyin}</p>
                 </div>
-                <img className="image" src={import.meta.env.BASE_URL + card.image} alt={card.spanish}/>
+                <img className="image" src={import.meta.env.BASE_URL + '/' + card.image} alt={card.spanish}/>
             </div>
             <div className="back">
                 <p className="category">{card.category}</p>
