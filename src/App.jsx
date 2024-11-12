@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import SingleCard from './components/SingleCard'
+import Filters from './components/Filters'
 import { db } from './data/db'
 
 function App() {
@@ -9,9 +10,17 @@ function App() {
   const [flipped, setFlipped] = useState([])
 
   useEffect(()=> {
-    setData(db)
-  }, [])
+    shuffleCards()
+  }, db)
 
+  const shuffleCards = () => {
+    let contador = 1
+    const shuffledCards = [...db]
+      .sort(() => Math.random() - 0.5)
+      .map((card)=> ({ ...card, id: contador++}))
+    setData(shuffledCards)
+  }
+  
   const handleClick = (card) => {
 
     const container = document.querySelector('.container-cards')
@@ -28,6 +37,9 @@ function App() {
     <>
       <Header />
       <main>
+        <Filters
+          shuffleCards={shuffleCards}
+        />
         <ul className='container-cards'>
           {data.map((card)=>(
             <SingleCard 
@@ -38,7 +50,7 @@ function App() {
           ))}
         </ul>
         <div>
-          <h3 className='scroll-alert'>Scroll horizontally ...</h3>
+          <h3 className='scroll-alert'>Scroll horizontal ...</h3>
         </div>
       </main>
     </>

@@ -53,16 +53,17 @@ main {
 
 .container-cards {
   width: 100vw;
-  height: 300px;
+  height: max-content;
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
   gap: 30px;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   scroll-snap-type: x mandatory;
   overflow: auto;
   padding: 0;
+  padding-top: 50px;
   mask-image: linear-gradient(to right, transparent, black 20%, black 40%, black 60%, black 80%, transparent);
 }
 
@@ -72,6 +73,10 @@ main {
 
 .card:first-child {
   margin-left: calc(50% - 170px/2);
+}
+
+.card:last-child {
+  margin-right: calc(50% - 170px/2);
 }
 
 .card {
@@ -123,7 +128,6 @@ main {
   font-family: "Ma Shan Zheng", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 50px;
   text-align: center;
   line-height: 60px;
   padding-top: 20px;
@@ -170,13 +174,22 @@ main {
 }
 
 .audio i {
-  color: rgb(255, 240, 191); 
-  background-color: rgb(0, 28, 65);
-  border: 2px solid rgb(0, 28, 65);
+  color: rgb(0, 28, 65);
   border-radius: 50%;
   transition: color 200ms;
+  rotate: -45deg;
 }
 
-.audio i:hover {
-  color: rgb(255, 115, 0);
+.container-filter {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 30px 20px 10px;
+  background: transparent;
+  color: #bababaea; 
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.895);
 }
