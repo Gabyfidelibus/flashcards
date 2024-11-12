@@ -267,7 +267,7 @@ export const db = [
         spanish: 'amar',
         category: 'verbo',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/audio28.mp3'
+        audio: '/assets/audios/audio28.m4a'
     },
     {
         id: 31,
