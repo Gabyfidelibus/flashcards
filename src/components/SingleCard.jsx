@@ -6,7 +6,7 @@ export default function SingleCard ({card, handleClick, flipped}) {
     
     const handleAudio = () => {
         const audioLoader = document.createElement('audio')
-        audioLoader.src = card.audio
+        audioLoader.src = import.meta.env.BASE_URL + card.audio
         audioLoader.play()
     }
 
