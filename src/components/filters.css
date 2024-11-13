@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container-filter {
+    font-family: "Raleway", sans-serif;
+    position: relative;
+}
+
+.filter-form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    background-color: #000000CC;
+    z-index: 1000;
+    padding: 20px 20px;
+    width: max-content;
+    top: 65px;
+}
+
+.filter-form button {
+    padding-left: 20px;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.filter-form .active {
+    background-color: #1a0042cc;
+}

@@ -10,12 +10,12 @@ function App() {
   const [flipped, setFlipped] = useState([])
 
   useEffect(()=> {
-    shuffleCards()
+    shuffleCards(db)
   }, db)
 
-  const shuffleCards = () => {
+  const shuffleCards = (cards) => {
     let contador = 1
-    const shuffledCards = [...db]
+    const shuffledCards = [...cards]
       .sort(() => Math.random() - 0.5)
       .map((card)=> ({ ...card, id: contador++}))
     setData(shuffledCards)
@@ -33,13 +33,33 @@ function App() {
     setFlipped((flipped == card) ? [] : card)
   }
 
+  const handleFilter = (selectedCategories) => {
+    let cards = []
+    if(selectedCategories.length) {
+      db.forEach(card => {
+        if (selectedCategories.includes(card.category)){
+          cards.push(card)
+        }
+      });
+      shuffleCards(cards)
+    } else {
+      shuffleCards(db)
+    }
+  } 
+
   return (
     <>
       <Header />
+
       <main>
-        <Filters
-          shuffleCards={shuffleCards}
-        />
+        <div className='top-panel'>
+            <Filters handleFilter={handleFilter}/>
+            <div>
+              <button className='saved btn' ><i class="fa-solid fa-bookmark fa-2xl"></i></button>
+              <button className='shuffle btn' onClick={()=>shuffleCards(data)} ><i className="fa-solid fa-retweet fa-2xl"></i></button>
+            </div>
+        </div>
+        
         <ul className='container-cards'>
           {data.map((card)=>(
             <SingleCard 
@@ -49,6 +69,7 @@ function App() {
             />
           ))}
         </ul>
+
         <div>
           <h3 className='scroll-alert'>Scroll horizontal ...</h3>
         </div>
