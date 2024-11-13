@@ -10,14 +10,16 @@ function App() {
   const [flipped, setFlipped] = useState([])
 
   useEffect(()=> {
-    shuffleCards(db)
+    shuffleCards(db,false)
   }, db)
 
-  const shuffleCards = (cards) => {
+  const shuffleCards = (cards,sort) => {
     let contador = 1
     const shuffledCards = [...cards]
-      .sort(() => Math.random() - 0.5)
-      .map((card)=> ({ ...card, id: contador++}))
+    if (sort) {
+      shuffledCards.sort(() => Math.random() - 0.5)
+    }
+    shuffledCards.map((card)=> ({ ...card, id: contador++}))
     setData(shuffledCards)
   }
   
@@ -41,9 +43,9 @@ function App() {
           cards.push(card)
         }
       });
-      shuffleCards(cards)
+      shuffleCards(cards,false)
     } else {
-      shuffleCards(db)
+      shuffleCards(db,false)
     }
   } 
 
@@ -56,7 +58,7 @@ function App() {
             <Filters handleFilter={handleFilter}/>
             <div>
               <button className='saved btn' ><i class="fa-solid fa-bookmark fa-2xl"></i></button>
-              <button className='shuffle btn' onClick={()=>shuffleCards(data)} ><i className="fa-solid fa-retweet fa-2xl"></i></button>
+              <button className='shuffle btn' onClick={()=>shuffleCards(data,true)} ><i className="fa-solid fa-retweet fa-2xl"></i></button>
             </div>
         </div>
         
