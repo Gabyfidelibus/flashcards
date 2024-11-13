@@ -84,7 +84,7 @@ export default function SingleCard ({handleFilter}) {
                 </li>
             </ul>
             
-            <button className="search btn"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+            <button className="search btn"><i className="fa-solid fa-magnifying-glass fa-2xl"></i></button>
         </div>
     )
 }
