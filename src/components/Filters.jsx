@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './filters.css'
 
-export default function SingleCard ({handleFilter}) {
+export default function SingleCard ({handleFilter, handleSearch}) {
 
     const [openFilter, setOpenFilter] = useState(false)
     
@@ -29,7 +29,7 @@ export default function SingleCard ({handleFilter}) {
         $filterForm.style.display = (openFilter) ? "none" : "flex";
     }
 
-    const handleClick = (category) => {
+    const handleFilterBTN = (category) => {
         const $categoryClicked = document.querySelector(category)
         $categoryClicked.classList.toggle("active")
 
@@ -43,7 +43,31 @@ export default function SingleCard ({handleFilter}) {
                 selectedCategories.push(e.getAttribute("name"))
             }
         });
+
         handleFilter(selectedCategories)
+    }
+
+    const closeSearchBar = (event) => {
+        const $searchBTN = document.querySelector('.search').querySelector('label')
+        const $searchBar = document.querySelector('.search').querySelector('input')
+        
+        if (!$searchBTN.contains(event.target) && !$searchBar.contains(event.target) && $searchBar.value === '') {
+            $searchBTN.classList.toggle('hidden')
+            $searchBar.classList.toggle('hidden')
+            document.removeEventListener("click",closeSearchBar)
+        }
+    }
+
+    const handleSearchBTN = () => {
+        const $searchBTN = document.querySelector('.search').querySelector('label')
+        const $searchBar = document.querySelector('.search').querySelector('input')
+        
+        $searchBTN.classList.toggle('hidden')
+        $searchBar.classList.toggle('hidden')
+
+        $searchBar.focus()
+
+        document.addEventListener("click",closeSearchBar)
     }
 
     return (
@@ -51,41 +75,45 @@ export default function SingleCard ({handleFilter}) {
             <button className="filter btn" onClick={showFilters}><i className="fa-solid fa-filter fa-2xl"></i></button>
             
             <ul className="filter-form" style={{display: 'none'}}>
-                <li id='cb-categoria-1' onClick={()=>handleClick("#cb-categoria-1")} name='números'>
+                <li id='cb-categoria-1' onClick={()=>handleFilterBTN("#cb-categoria-1")} name='números'>
                     <input type='checkbox'/>
                     <button>Números</button>
                 </li>
-                <li id='cb-categoria-2' onClick={()=>handleClick("#cb-categoria-2")} name='pronombres'>
+                <li id='cb-categoria-2' onClick={()=>handleFilterBTN("#cb-categoria-2")} name='pronombres'>
                     <input type='checkbox'/>
                     <button>Pronombres</button>
                 </li>
-                <li id='cb-categoria-3' onClick={()=>handleClick("#cb-categoria-3")} name='verbos'>
+                <li id='cb-categoria-3' onClick={()=>handleFilterBTN("#cb-categoria-3")} name='verbos'>
                     <input type='checkbox'/>
                     <button>Verbos</button>
                 </li>
-                <li id='cb-categoria-4' onClick={()=>handleClick("#cb-categoria-4")} name='familiares'>
+                <li id='cb-categoria-4' onClick={()=>handleFilterBTN("#cb-categoria-4")} name='familiares'>
                     <input type='checkbox'/>
                     <button>Familiares</button>
                 </li>
-                <li id='cb-categoria-5' onClick={()=>handleClick("#cb-categoria-5")} name='relaciones'>
+                <li id='cb-categoria-5' onClick={()=>handleFilterBTN("#cb-categoria-5")} name='relaciones'>
                     <input type='checkbox'/>
                     <button>Relaciones</button>
                 </li>
-                <li id='cb-categoria-6' onClick={()=>handleClick("#cb-categoria-6")} name='paises'>
+                <li id='cb-categoria-6' onClick={()=>handleFilterBTN("#cb-categoria-6")} name='paises'>
                     <input type='checkbox'/>
                     <button>Paises</button>
                 </li>
-                <li id='cb-categoria-7' onClick={()=>handleClick("#cb-categoria-7")} name='idiomas'>
+                <li id='cb-categoria-7' onClick={()=>handleFilterBTN("#cb-categoria-7")} name='idiomas'>
                     <input type='checkbox'/>
                     <button>Idiomas</button>
                 </li>
-                <li id='cb-categoria-8' onClick={()=>handleClick("#cb-categoria-8")} name='profesiones'>
+                <li id='cb-categoria-8' onClick={()=>handleFilterBTN("#cb-categoria-8")} name='profesiones'>
                     <input type='checkbox'/>
                     <button>Profesiones</button>
                 </li>
             </ul>
             
-            <button className="search btn"><i className="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+            <div className="search">
+                <label className='btn' onClick={()=>handleSearchBTN()}><i className="fa-solid fa-magnifying-glass fa-2xl"></i></label>
+                <input className='hidden' type='text' onChange={e => handleSearch(e.target.value)}/>
+            </div>
+
         </div>
     )
 }

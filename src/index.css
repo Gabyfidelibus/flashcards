@@ -13,16 +13,19 @@ body {
 }
 
 header {
-  height: 60px;
+  height: 70px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   justify-items: center;
   align-items: center;
   background-color: rgb(6, 17, 29);
+  box-shadow: 0 1px 3px black;
 }
 
 h1 {
+  word-spacing: 0.25rem;
+  letter-spacing: 0.08rem;
   font-size: 30px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -31,6 +34,7 @@ h1 {
 }
 
 h1 span {
+  letter-spacing: 0.12rem;
   font-weight: 900;
   font-style: italic;
   color: rgb(255, 115, 0);
@@ -95,6 +99,7 @@ main {
   height: 240px;
   border-radius: 20px;
   border: 5px solid rgb(255, 115, 0);
+  box-shadow: 2px -2px 10px rgba(0, 0, 0, 0.699);
 }
 
 .card .front {
@@ -183,16 +188,23 @@ main {
 
 .top-panel {
   width: 100vw;
+  height: 70px;
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   justify-content: space-between;
 }
 
 .btn {
-  padding: 30px 20px 20px;
+  width: 70px;
+  padding: 0 20px;
   background: transparent;
   color: #bababaea; 
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.895);
+}
+
+.btn i {
+  width: 30px;
 }
 
 .favorite-card {
@@ -215,4 +227,10 @@ main {
 .favorite-card .active, .top-panel .active i {
   color:#f6ff00;
   text-shadow: 1px 2px 3px #1c1c1c99;
+}
+
+.top-right-panel {
+  display: flex;
+  flex-flow: row nowrap;
+  width: max-content;
 }

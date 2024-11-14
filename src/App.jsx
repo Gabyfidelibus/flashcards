@@ -10,6 +10,7 @@ function App() {
   const [favSelected, setFavSelected] = useState(false)
   const [cardSelected, setCardSelected] = useState(1)
   const [flipped, setFlipped] = useState([])
+  const [query, setQuery] = useState('')
 
   const initLS = ()=> {
     const savedCards = localStorage.getItem('saved_cards')
@@ -136,14 +137,22 @@ function App() {
     localStorage.setItem('saved_cards',JSON.stringify({id: cardsLS}))
   }
 
+  const handleSearch = (text) => {
+    setQuery(text)
+    console.log(query)
+  }
+
   return (
     <>
       <Header />
 
       <main>
         <div className='top-panel'>
-            <Filters handleFilter={handleFilter}/>
-            <div>
+            <Filters 
+              handleFilter={handleFilter} 
+              handleSearch={handleSearch}
+            />
+            <div className='top-right-panel'>
               <button className='saved btn' onClick={handleSaved}><i className="fa-solid fa-bookmark fa-2xl"></i></button>
               <button className='shuffle btn' onClick={()=>showCards(data,true)} ><i className="fa-solid fa-retweet fa-2xl"></i></button>
             </div>
