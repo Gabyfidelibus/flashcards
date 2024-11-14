@@ -1,4 +1,4 @@
-export default function SingleCard ({card, handleClick, flipped, handleFav}) {
+export default function SingleCard ({card, handleClick, flipped, handleAddFav}) {
     
     const handleFlip = () => {
         handleClick(card)
@@ -13,7 +13,7 @@ export default function SingleCard ({card, handleClick, flipped, handleFav}) {
     return (
         <>
         <div className="favorite-card">
-            <button id={"fav-" + card.id} className="favorite-btn" onClick={()=>handleFav(card.id)}><i className="fa-solid fa-star fa-3x"></i></button>
+            <button id={"fav-" + card.id} className="favorite-btn" onClick={()=>handleAddFav(card.id)}><i className="fa-solid fa-star fa-3x"></i></button>
         </div>
         <div className={flipped ? "flipped" : ""} onClick={handleFlip}>
             <div className="front">

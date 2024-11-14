@@ -30,11 +30,12 @@ export default function SingleCard ({handleFilter}) {
     }
 
     const handleClick = (category) => {
-        let selectedCategories = []
         const $categoryClicked = document.querySelector(category)
+        $categoryClicked.classList.toggle("active")
+
+        let selectedCategories = []
         const $filterForm = document.querySelector(".filter-form")
         const categoryList = $filterForm.querySelectorAll("li")
-        $categoryClicked.classList.toggle("active")
         categoryList.forEach(e => {
             const $checkbox = e.querySelector("input")
             $checkbox.checked = (e.className.includes("active")) ? true : false
