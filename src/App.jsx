@@ -130,7 +130,7 @@ function App() {
 
     if (query != ''){
       cards.forEach(card => {
-        if (card.spanish.includes(query) || card.chinese.includes(query)) {
+        if (card.spanish.includes(query.toLowerCase()) || card.chinese.includes(query.toLocaleLowerCase())) {
           searchedCards.push(card)
         }
       });
@@ -181,7 +181,6 @@ function App() {
     const $containerCards = document.querySelector(".container-cards")
     $containerCards.scrollLeft = 0
     setCardSelected(1)
-
     
     const $emptyAlert = document.querySelector(".empty-alert")
     const $scrollAlert = document.querySelector(".scroll-alert")
