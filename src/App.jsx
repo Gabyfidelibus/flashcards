@@ -7,9 +7,11 @@ import { db } from './data/db'
 function App() {
 
   const [data, setData] = useState([])
+  const [showedCards, setShowedCards] = useState([])
   const [favSelected, setFavSelected] = useState(false)
   const [cardSelected, setCardSelected] = useState(1)
   const [flipped, setFlipped] = useState([])
+  const [filters, setFilters] = useState([])
   const [query, setQuery] = useState('')
 
   const initLS = ()=> {
@@ -17,6 +19,16 @@ function App() {
     if (!savedCards){
       localStorage.setItem('saved_cards', JSON.stringify({id: []}))
     }
+  }
+
+  const shuffleCards = () => {
+    let contador = 1
+    let newCards = [...showedCards]
+    newCards.sort(() => Math.random() - 0.5)
+    newCards.forEach(card => {
+      card.order = contador++
+    });
+    setShowedCards(newCards)
   }
 
   const getSavedCardsID = () => {
@@ -38,40 +50,12 @@ function App() {
   useEffect(()=> {
     initLS()
     setTimeout(()=>{
-      showCards(db,false)
+      setData
       const $containerCards = document.querySelector('.container-cards')
       $containerCards.addEventListener("scroll",handleScroll)
-    },20)
+    },10)
     
   }, [db])
-
-  const showCards = (cards,sort) => {
-    let contador = 1
-    let shuffledCards = [...cards]
-    if (sort) {
-      shuffledCards.sort(() => Math.random() - 0.5)
-    }
-    shuffledCards.forEach(card => {
-      card.order = contador++
-    });
-    setData(shuffledCards)
-
-    setTimeout(()=>{
-      const cardsLS = getSavedCardsID()
-      cards.forEach(card => {
-        const $star = document.querySelector("#fav-" + card.id)
-        if (cardsLS.includes(card.id)) {
-          $star.classList.add("active")
-        } else {
-          $star.classList.remove("active")
-        }
-      });
-
-      const $containerCards = document.querySelector(".container-cards")
-      $containerCards.scrollLeft = 0
-      setCardSelected(1)
-    }, 20)
-  }
   
   const handleClick = (card) => {
     const $containerCards = document.querySelector('.container-cards')
@@ -85,19 +69,7 @@ function App() {
   }
 
   const handleFilter = (selectedCategories) => {
-    let auxCards = []
-    let cards = []
-    cards = (favSelected) ? getFavCards() : db
-    if(selectedCategories.length) {
-      cards.forEach(card => {
-        if (selectedCategories.includes(card.category)){
-          auxCards.push(card)
-        }
-      });
-      showCards(auxCards,false)
-    } else {
-      showCards(cards,false)
-    }
+    setFilters(selectedCategories)
   } 
 
   const handleScroll = () => {
@@ -106,23 +78,33 @@ function App() {
     setCardSelected(idCard)
   }
 
-  const resetFilters = () => {
-    const filterButtons = document.querySelectorAll('.filter-form li')
-    filterButtons.forEach(btn => {
-      if (btn.className.includes("active")){
-        btn.classList.toggle("active")
-        btn.querySelector('input').checked = false
-      }
-    });
+  const resetSearchBar = () => {
+    const $searchBTN = document.querySelector('.search').querySelector('label')
+    const $searchBar = document.querySelector('.search').querySelector('input')
+  
+    $searchBar.value = ''
+    $searchBTN.classList.remove('hidden')
+    $searchBar.classList.add('hidden')
   }
 
   const handleSaved = () => {
     const $saved = document.querySelector(".saved")
     $saved.classList.toggle('active')
     setFavSelected(!favSelected)
-    showCards((favSelected) ? db : getFavCards())
-    resetFilters()
+    resetSearchBar()
   }
+
+  const updateFavData = () => {
+    if (favSelected){
+      setData(getFavCards())
+    } else {
+      setData(db)
+    }
+  }
+
+  useEffect(()=>{
+    updateFavData()
+  }, [favSelected])
 
   const handleAddFav = (id) => {
     const $favBTN = document.getElementById("fav-"+id)
@@ -139,8 +121,79 @@ function App() {
 
   const handleSearch = (text) => {
     setQuery(text)
-    console.log(query)
   }
+
+  const getSeachedCards = () => {
+
+    const cards = (favSelected) ? getFavCards() : db
+    let searchedCards = []
+
+    if (query != ''){
+      cards.forEach(card => {
+        if (card.spanish.includes(query) || card.chinese.includes(query)) {
+          searchedCards.push(card)
+        }
+      });
+    } else {
+      searchedCards = cards
+    }
+    return searchedCards
+  }
+
+  useEffect(()=>{
+    setData(getSeachedCards())
+  }, [query])
+
+  const updateFilteredData = () => {
+    let auxCards = []
+    let contador = 1
+    if (filters.length) {
+      data.forEach(card => {
+        if (filters.includes(card.category)){
+          card.order = contador++
+          auxCards.push(card)
+        }
+      });
+    } else {
+      data.forEach(card => {
+        card.order = contador++
+        auxCards.push(card)
+      })
+    }
+    setShowedCards(auxCards)
+  }
+  
+  useEffect(()=>{
+    updateFilteredData()
+  }, [filters,data])
+
+  useEffect(()=>{
+    const cardsLS = getSavedCardsID()
+    showedCards.forEach(card => {
+      const $star = document.querySelector("#fav-" + card.id)
+      if (cardsLS.includes(card.id)) {
+        $star.classList.add("active")
+      } else {
+        $star.classList.remove("active")
+      }
+    });
+
+    const $containerCards = document.querySelector(".container-cards")
+    $containerCards.scrollLeft = 0
+    setCardSelected(1)
+
+    
+    const $emptyAlert = document.querySelector(".empty-alert")
+    const $scrollAlert = document.querySelector(".scroll-alert")
+    if (showedCards.length === 0) {
+      $emptyAlert.classList.remove('hidden')
+      $scrollAlert.classList.add('hidden')
+    } else {
+      $emptyAlert.classList.add('hidden')
+      $scrollAlert.classList.remove('hidden')
+    }
+
+  }, [showedCards])
 
   return (
     <>
@@ -154,12 +207,14 @@ function App() {
             />
             <div className='top-right-panel'>
               <button className='saved btn' onClick={handleSaved}><i className="fa-solid fa-bookmark fa-2xl"></i></button>
-              <button className='shuffle btn' onClick={()=>showCards(data,true)} ><i className="fa-solid fa-retweet fa-2xl"></i></button>
+              <button className='shuffle btn' onClick={()=>shuffleCards()} ><i className="fa-solid fa-retweet fa-2xl"></i></button>
             </div>
         </div>
-        
+        <div className='empty-alert hidden'>
+          <h3>Sin resultados...</h3>
+        </div>
         <ul className='container-cards'>
-          {data.map((card,i)=>(
+          {showedCards.map((card,i)=>(
             <li key={i} className='card'>
               <SingleCard 
                 card={card}
@@ -172,8 +227,8 @@ function App() {
           ))}
         </ul>
 
-        <div>
-          <h3 className='scroll-alert'>Scroll horizontal ...</h3>
+        <div className='scroll-alert'>
+          <h3>Scroll horizontal ...</h3>
         </div>
       </main>
     </>

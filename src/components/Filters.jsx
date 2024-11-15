@@ -52,8 +52,8 @@ export default function SingleCard ({handleFilter, handleSearch}) {
         const $searchBar = document.querySelector('.search').querySelector('input')
         
         if (!$searchBTN.contains(event.target) && !$searchBar.contains(event.target) && $searchBar.value === '') {
-            $searchBTN.classList.toggle('hidden')
-            $searchBar.classList.toggle('hidden')
+            $searchBTN.classList.remove('hidden')
+            $searchBar.classList.add('hidden')
             document.removeEventListener("click",closeSearchBar)
         }
     }
