@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
+import SingleFilter from './singleFilter'
 import './filters.css'
 
-export default function SingleCard ({handleFilter, handleSearch}) {
+export default function SingleCard ({handleFilter, handleSearch, getAllCategories}) {
 
     const [openFilter, setOpenFilter] = useState(false)
     
@@ -35,7 +36,7 @@ export default function SingleCard ({handleFilter, handleSearch}) {
 
         let selectedCategories = []
         const $filterForm = document.querySelector(".filter-form")
-        const categoryList = $filterForm.querySelectorAll("li")
+        const categoryList = $filterForm.querySelectorAll("div")
         categoryList.forEach(e => {
             const $checkbox = e.querySelector("input")
             $checkbox.checked = (e.className.includes("active")) ? true : false
@@ -75,38 +76,15 @@ export default function SingleCard ({handleFilter, handleSearch}) {
             <button className="filter btn" onClick={showFilters}><i className="fa-solid fa-filter fa-2xl"></i></button>
             
             <ul className="filter-form" style={{display: 'none'}}>
-                <li id='cb-categoria-1' onClick={()=>handleFilterBTN("#cb-categoria-1")} name='números'>
-                    <input type='checkbox'/>
-                    <button>Números</button>
-                </li>
-                <li id='cb-categoria-2' onClick={()=>handleFilterBTN("#cb-categoria-2")} name='pronombres'>
-                    <input type='checkbox'/>
-                    <button>Pronombres</button>
-                </li>
-                <li id='cb-categoria-3' onClick={()=>handleFilterBTN("#cb-categoria-3")} name='verbos'>
-                    <input type='checkbox'/>
-                    <button>Verbos</button>
-                </li>
-                <li id='cb-categoria-4' onClick={()=>handleFilterBTN("#cb-categoria-4")} name='familiares'>
-                    <input type='checkbox'/>
-                    <button>Familiares</button>
-                </li>
-                <li id='cb-categoria-5' onClick={()=>handleFilterBTN("#cb-categoria-5")} name='relaciones'>
-                    <input type='checkbox'/>
-                    <button>Relaciones</button>
-                </li>
-                <li id='cb-categoria-6' onClick={()=>handleFilterBTN("#cb-categoria-6")} name='paises'>
-                    <input type='checkbox'/>
-                    <button>Paises</button>
-                </li>
-                <li id='cb-categoria-7' onClick={()=>handleFilterBTN("#cb-categoria-7")} name='idiomas'>
-                    <input type='checkbox'/>
-                    <button>Idiomas</button>
-                </li>
-                <li id='cb-categoria-8' onClick={()=>handleFilterBTN("#cb-categoria-8")} name='profesiones'>
-                    <input type='checkbox'/>
-                    <button>Profesiones</button>
-                </li>
+                {getAllCategories().map((category,id)=>(
+                    <li key = {id}>
+                        <SingleFilter 
+                            id = {id}
+                            category = {category}
+                            handleFilterBTN = {handleFilterBTN}
+                        />
+                    </li>
+                ))}
             </ul>
             
             <div className="search">

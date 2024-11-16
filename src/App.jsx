@@ -21,6 +21,24 @@ function App() {
     }
   }
 
+  useEffect(()=> {
+    initLS()
+    setData(db)
+
+    const $containerCards = document.querySelector('.container-cards')
+    $containerCards.addEventListener("scroll",handleScroll)
+  }, [db])
+
+  const getAllCategories = () => {
+    const allCategories = []
+    db.forEach(element => {
+      if (!allCategories.includes(element.category)){
+        allCategories.push(element.category)
+      }
+    });
+    return allCategories
+  }
+
   const shuffleCards = () => {
     let contador = 1
     let newCards = [...showedCards]
@@ -47,15 +65,7 @@ function App() {
     return auxCards
   }
 
-  useEffect(()=> {
-    initLS()
-    setTimeout(()=>{
-      setData
-      const $containerCards = document.querySelector('.container-cards')
-      $containerCards.addEventListener("scroll",handleScroll)
-    },10)
-    
-  }, [db])
+  
   
   const handleClick = (card) => {
     const $containerCards = document.querySelector('.container-cards')
@@ -203,6 +213,7 @@ function App() {
             <Filters 
               handleFilter={handleFilter} 
               handleSearch={handleSearch}
+              getAllCategories={getAllCategories}
             />
             <div className='top-right-panel'>
               <button className='saved btn' onClick={handleSaved}><i className="fa-solid fa-bookmark fa-2xl"></i></button>
