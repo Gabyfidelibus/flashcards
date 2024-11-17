@@ -204,6 +204,18 @@ function App() {
 
   }, [showedCards])
 
+  const handlePrevCard = () => {
+    const $containerCards = document.querySelector(".container-cards")
+    if (cardSelected !== 1)
+      $containerCards.scrollLeft = $containerCards.scrollLeft - 200
+  }
+
+  const handleNextCard = () => {
+    const $containerCards = document.querySelector(".container-cards")
+    if (cardSelected !== showedCards.length)
+      $containerCards.scrollLeft = $containerCards.scrollLeft + 200
+  }
+
   return (
     <>
       <Header />
@@ -238,7 +250,14 @@ function App() {
         </ul>
 
         <div className='scroll-alert'>
-          <h3>Scroll horizontal ...</h3>
+          <button className='prev-card btn' onClick={handlePrevCard}>
+            <i className="fa-solid fa-caret-left fa-4x"></i>
+            <h3>Anterior</h3>
+          </button>
+          <button className='next-card btn' onClick={handleNextCard}>
+            <h3>Siguiente</h3>
+            <i className="fa-solid fa-caret-right fa-4x"></i>
+          </button>
         </div>
       </main>
     </>
