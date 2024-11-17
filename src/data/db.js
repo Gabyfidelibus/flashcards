@@ -1710,5 +1710,312 @@ db = [
         category: 'profesiones',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 202,
+        chinese: '动物',
+        pinyin: 'dòng wù',
+        spanish: 'animal',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 203,
+        chinese: '狗',
+        pinyin: 'gǒu',
+        spanish: 'perro',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 204,
+        chinese: '猫',
+        pinyin: 'māo',
+        spanish: 'gato',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 205,
+        chinese: '兔子',
+        pinyin: 'tù zi',
+        spanish: 'conejo',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 206,
+        chinese: '马',
+        pinyin: 'mǎ',
+        spanish: 'caballo',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 207,
+        chinese: '鸡',
+        pinyin: 'jī',
+        spanish: 'gallo / pollo',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 208,
+        chinese: '猪',
+        pinyin: 'zhū',
+        spanish: 'cerdo',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 209,
+        chinese: '熊',
+        pinyin: 'xióng',
+        spanish: 'oso',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 210,
+        chinese: '熊猫',
+        pinyin: 'xióng māo',
+        spanish: 'panda',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 211,
+        chinese: '鱼',
+        pinyin: 'yú',
+        spanish: 'pez',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 212,
+        chinese: '鸭子',
+        pinyin: 'yā zi',
+        spanish: 'pato',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 213,
+        chinese: '狮子',
+        pinyin: 'shī zi',
+        spanish: 'león',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 214,
+        chinese: '老虎',
+        pinyin: 'lǎo hǔ',
+        spanish: 'tigre',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 215,
+        chinese: '山羊',
+        pinyin: 'shān yáng',
+        spanish: 'cabra',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 216,
+        chinese: '龙',
+        pinyin: 'lóng',
+        spanish: 'dragón',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 217,
+        chinese: '猴子',
+        pinyin: 'hóu zi',
+        spanish: 'mono',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 218,
+        chinese: '狼',
+        pinyin: 'láng',
+        spanish: 'lobo',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 219,
+        chinese: '母',
+        pinyin: 'mǔ',
+        spanish: 'hembra',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 220,
+        chinese: '公',
+        pinyin: 'gōng',
+        spanish: 'macho',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 221,
+        chinese: '牛',
+        pinyin: 'niú',
+        spanish: 'búfalo',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 222,
+        chinese: '母牛',
+        pinyin: 'mǔ niú',
+        spanish: 'vaca',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 223,
+        chinese: '公牛',
+        pinyin: 'gōng niú',
+        spanish: 'toro',
+        category: 'animales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 224,
+        chinese: '颜色',
+        pinyin: 'yán sè',
+        spanish: 'color',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 225,
+        chinese: '黄色',
+        pinyin: 'huáng sè',
+        spanish: 'amarillo',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 226,
+        chinese: '蓝色',
+        pinyin: 'lán sè',
+        spanish: 'azul',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 227,
+        chinese: '白色',
+        pinyin: 'bái sè',
+        spanish: 'blanco',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 228,
+        chinese: '灰色',
+        pinyin: 'huī sè',
+        spanish: 'gris',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 229,
+        chinese: '棕色',
+        pinyin: 'zōng sè',
+        spanish: 'marrón',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 230,
+        chinese: '黑色',
+        pinyin: 'hēi sè',
+        spanish: 'negro',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 231,
+        chinese: '红色',
+        pinyin: 'hóng sè',
+        spanish: 'rojo',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 232,
+        chinese: '粉色',
+        pinyin: 'fěn sè',
+        spanish: 'rosa',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 233,
+        chinese: '橙色',
+        pinyin: 'chéng sè',
+        spanish: 'naranja',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 234,
+        chinese: '绿色',
+        pinyin: 'lǜ sè',
+        spanish: 'verde',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 235,
+        chinese: '紫色',
+        pinyin: 'zǐ sè',
+        spanish: 'morado',
+        category: 'colores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
     }
+
 ]

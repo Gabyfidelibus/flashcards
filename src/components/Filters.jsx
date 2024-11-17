@@ -24,6 +24,13 @@ export default function SingleCard ({handleFilter, handleSearch, getAllCategorie
 
         setOpenFilter(!openFilter)
 
+        
+        const categoryList = $filterForm.querySelectorAll("div")
+        categoryList.forEach(e => {
+            const $checkbox = e.querySelector("input")
+            $checkbox.addEventListener("click",e=>{e.preventDefault()})
+        });
+
         document.addEventListener("click",closeFilters)
 
         $filterBTN.style.backgroundColor = (openFilter) ? "transparent" : "#00000088";
@@ -39,6 +46,7 @@ export default function SingleCard ({handleFilter, handleSearch, getAllCategorie
         const categoryList = $filterForm.querySelectorAll("div")
         categoryList.forEach(e => {
             const $checkbox = e.querySelector("input")
+            $checkbox.addEventListener("click",e=>{e.preventDefault()})
             $checkbox.checked = (e.className.includes("active")) ? true : false
             if (e.className.includes("active")) {
                 selectedCategories.push(e.getAttribute("name"))

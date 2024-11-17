@@ -5,9 +5,12 @@ export default function SingleFilter ({id, category, handleFilterBTN}) {
     }
 
     return (
-        <div id={getCategoryID()} onClick={()=>handleFilterBTN('#'+getCategoryID())} name={category}>
-            <input type='checkbox'/>
-            <button>{category}</button>
+        <div id={getCategoryID()} name={category}>
+            <label className="container-checkbox" >
+                <input type='checkbox'/>
+                <span className="checkmark" onClick={()=>handleFilterBTN('#'+getCategoryID())}></span>
+            </label>
+            <button onClick={()=>handleFilterBTN('#'+getCategoryID())}>{category}</button>
         </div>
     )
 }
