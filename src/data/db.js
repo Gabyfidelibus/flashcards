@@ -1184,7 +1184,7 @@ db = [
         id: 143,
         chinese: '中国',
         pinyin: 'zhōng guó',
-        spanish: 'China',
+        spanish: 'china',
         category: 'paises',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
@@ -1193,7 +1193,7 @@ db = [
         id: 144,
         chinese: '意大利',
         pinyin: 'yì dà lì',
-        spanish: 'Italia',
+        spanish: 'italia',
         category: 'paises',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
@@ -1202,7 +1202,7 @@ db = [
         id: 145,
         chinese: '日本',
         pinyin: 'rì běn',
-        spanish: 'Japón',
+        spanish: 'japón',
         category: 'paises',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
@@ -1211,7 +1211,7 @@ db = [
         id: 146,
         chinese: '西班牙',
         pinyin: 'xī bān yá',
-        spanish: 'España',
+        spanish: 'españa',
         category: 'paises',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
@@ -1220,7 +1220,7 @@ db = [
         id: 147,
         chinese: '美国',
         pinyin: 'měi guó',
-        spanish: 'Estados Unidos',
+        spanish: 'estados unidos',
         category: 'paises',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
@@ -1229,7 +1229,7 @@ db = [
         id: 148,
         chinese: '阿根廷',
         pinyin: 'ā gēn tíng',
-        spanish: 'Argentina',
+        spanish: 'argentina',
         category: 'paises',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
@@ -2016,6 +2016,1534 @@ db = [
         category: 'colores',
         image: '/assets/images/img1.png',
         audio: '/assets/audios/audio1.mp3'
-    }
+    },
+    {
+        id: 236,
+        chinese: '交通工具',
+        pinyin: 'jiāo tōng gōng jù',
+        spanish: 'transporte',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 237,
+        chinese: '汽车',
+        pinyin: 'qì chē',
+        spanish: 'coche',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 238,
+        chinese: '公共汽车',
+        pinyin: 'gōng gòng qì chē',
+        spanish: 'autobús',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 239,
+        chinese: '飞机',
+        pinyin: 'fēi jī',
+        spanish: 'avión',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 240,
+        chinese: '船',
+        pinyin: 'chuán',
+        spanish: 'barco',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 241,
+        chinese: '自行车',
+        pinyin: 'zì xíng chē',
+        spanish: 'bicicleta',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 242,
+        chinese: '货车',
+        pinyin: 'huò chē',
+        spanish: 'camión',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 243,
+        chinese: '地铁',
+        pinyin: 'dì tiě',
+        spanish: 'metro',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 244,
+        chinese: '火车',
+        pinyin: 'huǒ chē',
+        spanish: 'tren',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 245,
+        chinese: '高铁',
+        pinyin: 'gāo tiě',
+        spanish: 'tren bala',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 246,
+        chinese: '车厢',
+        pinyin: 'chē xiāng',
+        spanish: 'vagón',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 247,
+        chinese: '座位',
+        pinyin: 'zuò wèi',
+        spanish: 'asiento',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 248,
+        chinese: '票',
+        pinyin: 'piào',
+        spanish: 'billete',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 249,
+        chinese: '公路',
+        pinyin: 'gōng lù',
+        spanish: 'carretera',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 250,
+        chinese: '车站',
+        pinyin: 'chē zhàn',
+        spanish: 'estación',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 251,
+        chinese: '摩托车',
+        pinyin: 'mó tuō chē',
+        spanish: 'moto',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 252,
+        chinese: '踏板车',
+        pinyin: 'tà bǎn chē',
+        spanish: 'scooter',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 253,
+        chinese: '出租车',
+        pinyin: 'chū zū chē',
+        spanish: 'taxi',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 254,
+        chinese: '街道',
+        pinyin: 'jiē dào',
+        spanish: 'calle / avenida',
+        category: 'transportes',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 255,
+        chinese: '衣服',
+        pinyin: 'yī fu',
+        spanish: 'ropa',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 256,
+        chinese: '鞋子',
+        pinyin: 'xié zi',
+        spanish: 'zapatos',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 257,
+        chinese: '休闲鞋',
+        pinyin: 'xiū xián xié',
+        spanish: 'zapatillas',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 258,
+        chinese: '凉鞋',
+        pinyin: 'liáng xié',
+        spanish: 'sandalias',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 259,
+        chinese: '拖鞋',
+        pinyin: 'tuō xié',
+        spanish: 'pantuflas / chanclas',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 260,
+        chinese: '皮鞋',
+        pinyin: 'pí xié',
+        spanish: 'zapatos de vestir',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 261,
+        chinese: '靴子',
+        pinyin: 'xuē zi',
+        spanish: 'botas',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 262,
+        chinese: '袜子',
+        pinyin: 'wà zi',
+        spanish: 'calcetín',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 263,
+        chinese: '牛仔',
+        pinyin: 'niú zǎi',
+        spanish: 'vaqueros',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 264,
+        chinese: '长裤',
+        pinyin: 'cháng kù',
+        spanish: 'pantalones largos',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 265,
+        chinese: '短裤',
+        pinyin: 'duǎn kù',
+        spanish: 'pantalones cortos',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 266,
+        chinese: '睡衣',
+        pinyin: 'shuì yī',
+        spanish: 'pijama',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 267,
+        chinese: '衬衫',
+        pinyin: 'chèn shān',
+        spanish: 'camisa',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 268,
+        chinese: 'T恤',
+        pinyin: 'tī xù',
+        spanish: 'camiseta',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 269,
+        chinese: '外套',
+        pinyin: 'wài tào',
+        spanish: 'campera / abrigo',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 270,
+        chinese: '毛衣',
+        pinyin: 'máo yī',
+        spanish: 'jersey',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 271,
+        chinese: '内衣',
+        pinyin: 'nèi yī',
+        spanish: 'ropa interior',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 272,
+        chinese: '胸罩',
+        pinyin: 'xiōng zhào',
+        spanish: 'sostén',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 273,
+        chinese: '内裤',
+        pinyin: 'nèi kù',
+        spanish: 'panties',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 274,
+        chinese: '裙子',
+        pinyin: 'qún zi',
+        spanish: 'falda',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 275,
+        chinese: '帽子',
+        pinyin: 'mào zi',
+        spanish: 'gorro',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 276,
+        chinese: '眼镜',
+        pinyin: 'yǎn jìng',
+        spanish: 'gafas',
+        category: 'vestimenta',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 277,
+        chinese: '头',
+        pinyin: 'tóu',
+        spanish: 'cabeza',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 278,
+        chinese: '头发',
+        pinyin: 'tóu fā',
+        spanish: 'pelo',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 279,
+        chinese: '脸',
+        pinyin: 'liǎn',
+        spanish: 'cara',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 280,
+        chinese: '眼睛',
+        pinyin: 'yǎn jīng',
+        spanish: 'ojos',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 281,
+        chinese: '眉毛',
+        pinyin: 'méi máo',
+        spanish: 'cejas',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 282,
+        chinese: '睫毛',
+        pinyin: 'jié máo',
+        spanish: 'pestañas',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 283,
+        chinese: '鼻子',
+        pinyin: 'bí zi',
+        spanish: 'nariz',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 284,
+        chinese: '嘴',
+        pinyin: 'zuǐ',
+        spanish: 'boca',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 285,
+        chinese: '嘴唇',
+        pinyin: 'zuǐ chún',
+        spanish: 'labios',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 286,
+        chinese: '牙齿',
+        pinyin: 'yá chǐ',
+        spanish: 'diente',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 287,
+        chinese: '舌头',
+        pinyin: 'shé tóu',
+        spanish: 'lengua',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 288,
+        chinese: '耳朵',
+        pinyin: 'ěr duǒ',
+        spanish: 'orejas',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 289,
+        chinese: '脖子',
+        pinyin: 'bó zi',
+        spanish: 'cuello',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 290,
+        chinese: '背',
+        pinyin: 'bèi',
+        spanish: 'espalda',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 291,
+        chinese: '腰',
+        pinyin: 'yāo',
+        spanish: 'cintura',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 292,
+        chinese: '屁股',
+        pinyin: 'pì gǔ',
+        spanish: 'culo',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 293,
+        chinese: '胸部',
+        pinyin: 'xiōng bù',
+        spanish: 'pechos',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 294,
+        chinese: '脚',
+        pinyin: 'jiǎo',
+        spanish: 'pie',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 295,
+        chinese: '脚踝',
+        pinyin: 'jiǎo huái',
+        spanish: 'tobillo',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 296,
+        chinese: '皮肤',
+        pinyin: 'pí fū',
+        spanish: 'piel',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 297,
+        chinese: '手',
+        pinyin: 'shǒu',
+        spanish: 'mano',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 298,
+        chinese: '手臂',
+        pinyin: 'shǒu bì',
+        spanish: 'brazo',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 299,
+        chinese: '手腕',
+        pinyin: 'shǒu wàn',
+        spanish: 'muñeca',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 300,
+        chinese: '手指',
+        pinyin: 'shǒu zhǐ',
+        spanish: 'dedo',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 301,
+        chinese: '指甲',
+        pinyin: 'zhǐ jiǎ',
+        spanish: 'uña',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 302,
+        chinese: '腿',
+        pinyin: 'tuǐ',
+        spanish: 'pierna',
+        category: 'partes del cuerpo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 303,
+        chinese: '地方',
+        pinyin: 'dì fāng',
+        spanish: 'lugar / sitio',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 304,
+        chinese: '电影院',
+        pinyin: 'diàn yǐng yuàn',
+        spanish: 'cine',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 305,
+        chinese: '公园',
+        pinyin: 'gōng yuán',
+        spanish: 'parque',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 306,
+        chinese: '海滩',
+        pinyin: 'hǎi tān',
+        spanish: 'playa',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 307,
+        chinese: '动物园',
+        pinyin: 'dòng wù yuán',
+        spanish: 'zoológico',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 308,
+        chinese: '宾馆',
+        pinyin: 'bīn guǎn',
+        spanish: 'hotel',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 309,
+        chinese: '体育馆',
+        pinyin: 'tǐ yù guǎn',
+        spanish: 'gimnasio',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 310,
+        chinese: '广场',
+        pinyin: 'guǎng chǎng',
+        spanish: 'plaza',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 311,
+        chinese: '学校',
+        pinyin: 'xué xiào',
+        spanish: 'escuela',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 312,
+        chinese: '小学',
+        pinyin: 'xiǎo xué',
+        spanish: 'colegio',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 313,
+        chinese: '大学',
+        pinyin: 'dà xué',
+        spanish: 'universidad',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 314,
+        chinese: '银行',
+        pinyin: 'yín háng',
+        spanish: 'banco',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 315,
+        chinese: '医院',
+        pinyin: 'yī yuàn',
+        spanish: 'hospital',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 316,
+        chinese: '酒吧',
+        pinyin: 'jiǔ bā',
+        spanish: 'bar',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 317,
+        chinese: '迪斯科',
+        pinyin: 'dí sī kē',
+        spanish: 'discoteca',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 318,
+        chinese: '夜总会',
+        pinyin: 'yè zǒng huì',
+        spanish: 'boliche',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 319,
+        chinese: '饭馆',
+        pinyin: 'fàn guǎn',
+        spanish: 'restaurante',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 320,
+        chinese: '饭店',
+        pinyin: 'fàn diàn',
+        spanish: 'restaurante',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 321,
+        chinese: '咖啡店',
+        pinyin: 'kā fēi diàn',
+        spanish: 'cafetería',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 322,
+        chinese: '机场',
+        pinyin: 'jī chǎng',
+        spanish: 'aeropuerto',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 323,
+        chinese: '商店',
+        pinyin: 'shāng diàn',
+        spanish: 'tienda',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 324,
+        chinese: '商场',
+        pinyin: 'shāng chǎng',
+        spanish: 'centro comercial',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 325,
+        chinese: '超市',
+        pinyin: 'chāo shì',
+        spanish: 'supermercado',
+        category: 'lugares',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    // Electrodomésticos
+    {
+        id: 326,
+        chinese: '电脑',
+        pinyin: 'diàn nǎo',
+        spanish: 'computadora',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 327,
+        chinese: '电视',
+        pinyin: 'diàn shì',
+        spanish: 'televisión',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 328,
+        chinese: '手机',
+        pinyin: 'shǒu jī',
+        spanish: 'celular',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 329,
+        chinese: '电话',
+        pinyin: 'diàn huà',
+        spanish: 'teléfono',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 330,
+        chinese: '空调',
+        pinyin: 'kōng tiáo',
+        spanish: 'AC',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 331,
+        chinese: '灯',
+        pinyin: 'dēng',
+        spanish: 'luz',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 332,
+        chinese: '台灯',
+        pinyin: 'tái dēng',
+        spanish: 'lámpara',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 333,
+        chinese: '电源',
+        pinyin: 'diàn yuán',
+        spanish: 'cargador / enchufe',
+        category: 'electrodomésticos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
 
-]
+// Cosas del hogar
+    {
+        id: 334,
+        chinese: '家',
+        pinyin: 'jiā',
+        spanish: 'hogar',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 335,
+        chinese: '沙发',
+        pinyin: 'shā fā',
+        spanish: 'sofá',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 336,
+        chinese: '窗子',
+        pinyin: 'chuāng zi',
+        spanish: 'ventana',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 337,
+        chinese: '地板',
+        pinyin: 'dì bǎn',
+        spanish: 'suelo',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 338,
+        chinese: '墙',
+        pinyin: 'qiáng',
+        spanish: 'pared',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 339,
+        chinese: '门',
+        pinyin: 'mén',
+        spanish: 'puerta',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 340,
+        chinese: '天花板',
+        pinyin: 'tiān huā bǎn',
+        spanish: 'techo',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 341,
+        chinese: '家具',
+        pinyin: 'jiā jù',
+        spanish: 'muebles',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 342,
+        chinese: '饭桌',
+        pinyin: 'fàn zhuō',
+        spanish: 'mesa',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 343,
+        chinese: '厨房',
+        pinyin: 'chú fáng',
+        spanish: 'cocina',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 344,
+        chinese: '灶',
+        pinyin: 'zào',
+        spanish: 'horno / hornalla',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 345,
+        chinese: '杯子',
+        pinyin: 'bēi zi',
+        spanish: 'taza',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 346,
+        chinese: '盘子',
+        pinyin: 'pán zi',
+        spanish: 'plato',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 347,
+        chinese: '餐具',
+        pinyin: 'cān jù',
+        spanish: 'cubiertos',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 348,
+        chinese: '叉子',
+        pinyin: 'chā zi',
+        spanish: 'tenedor',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 349,
+        chinese: '筷子',
+        pinyin: 'kuài zi',
+        spanish: 'palillos',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 350,
+        chinese: '刀子',
+        pinyin: 'dāo zi',
+        spanish: 'cuchillo',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 351,
+        chinese: '勺子',
+        pinyin: 'sháo zi',
+        spanish: 'cuchara',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 352,
+        chinese: '卧室',
+        pinyin: 'wò shì',
+        spanish: 'dormitorio',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 353,
+        chinese: '床',
+        pinyin: 'chuáng',
+        spanish: 'cama',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 354,
+        chinese: '被子',
+        pinyin: 'bèi zi',
+        spanish: 'manta',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 355,
+        chinese: '厕所',
+        pinyin: 'cè suǒ',
+        spanish: 'baño / WC',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 356,
+        chinese: '卫生间',
+        pinyin: 'wèi shēng jiān',
+        spanish: 'cuarto de baño',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 357,
+        chinese: '马桶',
+        pinyin: 'mǎ tǒng',
+        spanish: 'inodoro',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 358,
+        chinese: '浴室',
+        pinyin: 'yù shì',
+        spanish: 'ducha',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 359,
+        chinese: '公寓',
+        pinyin: 'gōng yù',
+        spanish: 'apartamento',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 360,
+        chinese: '楼层',
+        pinyin: 'lóu céng',
+        spanish: 'piso / nivel',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 361,
+        chinese: '木',
+        pinyin: 'mù',
+        spanish: 'madera',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 362,
+        chinese: '石',
+        pinyin: 'shí',
+        spanish: 'piedra',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 363,
+        chinese: '树',
+        pinyin: 'shù',
+        spanish: 'árbol',
+        category: 'cosas del hogar',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    // Comida
+    {
+        id: 364,
+        chinese: '食物',
+        pinyin: 'shí wù',
+        spanish: 'comida',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 365,
+        chinese: '早饭',
+        pinyin: 'zǎo fàn',
+        spanish: 'desayuno',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 366,
+        chinese: '午饭',
+        pinyin: 'wǔ fàn',
+        spanish: 'almuerzo',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 367,
+        chinese: '晚饭',
+        pinyin: 'wǎn fàn',
+        spanish: 'cena',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 368,
+        chinese: '牛奶',
+        pinyin: 'niú nǎi',
+        spanish: 'leche',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 369,
+        chinese: '咖啡',
+        pinyin: 'kā fēi',
+        spanish: 'café',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 370,
+        chinese: '面包',
+        pinyin: 'miàn bāo',
+        spanish: 'pan',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 371,
+        chinese: '鸡蛋',
+        pinyin: 'jī dàn',
+        spanish: 'huevo',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 372,
+        chinese: '果汁',
+        pinyin: 'guǒ zhī',
+        spanish: 'zumo',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 373,
+        chinese: '水',
+        pinyin: 'shuǐ',
+        spanish: 'agua',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 374,
+        chinese: '水果',
+        pinyin: 'shuǐ guǒ',
+        spanish: 'fruta',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 375,
+        chinese: '苹果',
+        pinyin: 'píng guǒ',
+        spanish: 'manzana',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 376,
+        chinese: '橙子',
+        pinyin: 'chéng zi',
+        spanish: 'naranja',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 377,
+        chinese: '西瓜',
+        pinyin: 'xī guā',
+        spanish: 'sandía',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 378,
+        chinese: '葡萄',
+        pinyin: 'pú táo',
+        spanish: 'uva',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 379,
+        chinese: '桃子',
+        pinyin: 'táo zi',
+        spanish: 'durazno',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 380,
+        chinese: '香蕉',
+        pinyin: 'xiāng jiāo',
+        spanish: 'banana',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 381,
+        chinese: '芒果',
+        pinyin: 'máng guǒ',
+        spanish: 'mango',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 382,
+        chinese: '草莓',
+        pinyin: 'cǎo méi',
+        spanish: 'frutilla',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 383,
+        chinese: '豆浆',
+        pinyin: 'dòu jiāng',
+        spanish: 'soja',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 384,
+        chinese: '可乐',
+        pinyin: 'kě lè',
+        spanish: 'coca-cola',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 385,
+        chinese: '芬达',
+        pinyin: 'fēn dá',
+        spanish: 'fanta',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 386,
+        chinese: '雪碧',
+        pinyin: 'xuě bì',
+        spanish: 'sprite',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 387,
+        chinese: '茶',
+        pinyin: 'chá',
+        spanish: 'té',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 388,
+        chinese: '酒',
+        pinyin: 'jiǔ',
+        spanish: 'alcohol / licor',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 389,
+        chinese: '啤酒',
+        pinyin: 'pí jiǔ',
+        spanish: 'cerveza',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 390,
+        chinese: '红酒',
+        pinyin: 'hóng jiǔ',
+        spanish: 'vino',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 391,
+        chinese: '肉',
+        pinyin: 'ròu',
+        spanish: 'carne',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 392,
+        chinese: '牛肉',
+        pinyin: 'niú ròu',
+        spanish: 'carne de vaca',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 393,
+        chinese: '猪肉',
+        pinyin: 'zhū ròu',
+        spanish: 'carne de cerdo',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 394,
+        chinese: '羊肉',
+        pinyin: 'yáng ròu',
+        spanish: 'carne de cordero',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 395,
+        chinese: '海鲜',
+        pinyin: 'Hǎi xiān',
+        spanish: 'pescados y mariscos',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 396,
+        chinese: '火锅',
+        pinyin: 'huǒ guō',
+        spanish: 'hot pot',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 397,
+        chinese: '包子',
+        pinyin: 'bāo zi',
+        spanish: 'bao zi',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 398,
+        chinese: '饺子',
+        pinyin: 'jiǎo zi',
+        spanish: 'dumplings',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 399,
+        chinese: '米',
+        pinyin: 'mǐ',
+        spanish: 'arroz',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 400,
+        chinese: '汉堡',
+        pinyin: 'hàn bǎo',
+        spanish: 'hamburguesa',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 401,
+        chinese: '比萨',
+        pinyin: 'bǐ sà',
+        spanish: 'pizza',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 402,
+        chinese: '面条',
+        pinyin: 'miàn tiáo',
+        spanish: 'fideos',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 403,
+        chinese: '土豆',
+        pinyin: 'tǔ dòu',
+        spanish: 'papa',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    },
+    {
+        id: 404,
+        chinese: '胡萝卜',
+        pinyin: 'hú luó bo',
+        spanish: 'zanahoria',
+        category: 'comida',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/'
+    }
+];
+
+
+
+

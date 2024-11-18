@@ -134,9 +134,9 @@ main {
   font-family: serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
-  color: rgb(50, 50, 50);
+  color: rgb(39, 39, 39);
 }
 
 .category {
