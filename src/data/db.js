@@ -74,7 +74,8 @@ db = [
         audio: '/assets/audios/audio9.mp3'
     },
     { 
-        id: 10,       chinese: '八',
+        id: 10,
+        chinese: '八',
         pinyin: 'bā',
         spanish: 'ocho',
         category: 'números',
@@ -82,7 +83,8 @@ db = [
         audio: '/assets/audios/audio10.mp3'
     },
     { 
-        id: 11,       chinese: '九',
+        id: 11,
+        chinese: '九',
         pinyin: 'jiǔ',
         spanish: 'nueve',
         category: 'números',
@@ -90,7 +92,8 @@ db = [
         audio: '/assets/audios/audio11.mp3'
     },
     { 
-        id: 12,       chinese: '十',
+        id: 12,
+        chinese: '十',
         pinyin: 'shí',
         spanish: 'diez',
         category: 'números',
@@ -98,7 +101,8 @@ db = [
         audio: '/assets/audios/audio12.mp3'
     },
     { 
-        id: 13,       chinese: '百',
+        id: 13,
+        chinese: '百',
         pinyin: 'bǎi',
         spanish: 'cien',
         category: 'números',
@@ -106,7 +110,8 @@ db = [
         audio: '/assets/audios/audio13.mp3'
     },
     { 
-        id: 14,       chinese: '千',
+        id: 14,
+        chinese: '千',
         pinyin: 'qiān',
         spanish: 'mil',
         category: 'números',
@@ -114,7 +119,8 @@ db = [
         audio: '/assets/audios/audio14.mp3'
     },
     { 
-        id: 15,       chinese: '万',
+        id: 15,
+        chinese: '万',
         pinyin: 'wàn',
         spanish: 'diez mil',
         category: 'números',
@@ -122,7 +128,8 @@ db = [
         audio: '/assets/audios/audio15.mp3'
     },
     { 
-        id: 16,       chinese: '我',
+        id: 16,
+        chinese: '我',
         pinyin: 'wǒ',
         spanish: 'yo',
         category: 'pronombres',
@@ -130,7 +137,8 @@ db = [
         audio: '/assets/audios/audio16.mp3'
     },
     { 
-        id: 17,       chinese: '你',
+        id: 17,
+        chinese: '你',
         pinyin: 'nǐ',
         spanish: 'tú',
         category: 'pronombres',
@@ -138,7 +146,8 @@ db = [
         audio: '/assets/audios/audio17.mp3'
     },
     { 
-        id: 18,       chinese: '您',
+        id: 18,
+        chinese: '您',
         pinyin: 'nín',
         spanish: 'usted',
         category: 'pronombres',
@@ -146,7 +155,8 @@ db = [
         audio: '/assets/audios/audio18.mp3'
     },
     { 
-        id: 19,       chinese: '他',
+        id: 19,
+        chinese: '他',
         pinyin: 'tā',
         spanish: 'él',
         category: 'pronombres',
@@ -154,7 +164,8 @@ db = [
         audio: '/assets/audios/audio19.mp3'
     },
     { 
-        id: 20,       chinese: '她',
+        id: 20,
+        chinese: '她',
         pinyin: 'tā',
         spanish: 'ella',
         category: 'pronombres',
@@ -162,263 +173,296 @@ db = [
         audio: '/assets/audios/audio19.mp3'
     },
     { 
-        id: 21,       chinese: '这个',
+        id: 21,
+        chinese: '这个',
         pinyin: 'zhè gè',
         spanish: 'esto',
         category: 'pronombres',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img19.png',
         audio: '/assets/audios/audio20.m4a'
     },
     { 
-        id: 22,       chinese: '那个',
+        id: 22,
+        chinese: '那个',
         pinyin: 'nà gè',
         spanish: 'eso',
         category: 'pronombres',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img20.png',
         audio: '/assets/audios/audio21.m4a'
     },
     { 
-        id: 23,       chinese: '我们',
+        id: 23,
+        chinese: '我们',
         pinyin: 'wǒ men',
         spanish: 'nosotros',
         category: 'pronombres',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img21.png',
         audio: '/assets/audios/audio22.mp3'
     },
     { 
-        id: 24,       chinese: '你们',
+        id: 24,
+        chinese: '你们',
         pinyin: 'nǐ men',
         spanish: 'ustedes',
         category: 'pronombres',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img22.png',
         audio: '/assets/audios/audio23.mp3'
     },
     { 
-        id: 25,       chinese: '他们',
+        id: 25,
+        chinese: '他们',
         pinyin: 'tā men',
         spanish: 'ellos',
         category: 'pronombres',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img23.png',
         audio: '/assets/audios/audio24.mp3'
     },
     { 
-        id: 26,       chinese: '她们',
+        id: 26,
+        chinese: '她们',
         pinyin: 'tā men',
         spanish: 'ellas',
         category: 'pronombres',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img24.png',
         audio: '/assets/audios/audio24.mp3'
     },
     { 
-        id: 27,       chinese: '想',
+        id: 27,
+        chinese: '想',
         pinyin: 'xiǎng',
         spanish: 'querer / extrañar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img25.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 28,       chinese: '喜欢',
+        id: 28,
+        chinese: '喜欢',
         pinyin: 'xǐ huān',
         spanish: 'gustar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img26.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 29,       chinese: '是',
+        id: 29,
+        chinese: '是',
         pinyin: 'shì',
         spanish: 'ser',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img27.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 30,       chinese: '爱',
+        id: 30,
+        chinese: '爱',
         pinyin: 'ài',
         spanish: 'amar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img28.png',
         audio: '/assets/audios/audio28.m4a'
     },
     { 
-        id: 31,       chinese: '有',
+        id: 31,
+        chinese: '有',
         pinyin: 'yǒu',
         spanish: 'tener / haber',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img29.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 32,       chinese: '去',
+        id: 32,
+        chinese: '去',
         pinyin: 'qù',
         spanish: 'ir',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img30.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 33,       chinese: '做',
+        id: 33,
+        chinese: '做',
         pinyin: 'zuò',
         spanish: 'hacer',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img31.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 34,       chinese: '用',
+        id: 34,
+        chinese: '用',
         pinyin: 'yòng',
         spanish: 'usar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img32.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 35,       chinese: '在',
+        id: 35,
+        chinese: '在',
         pinyin: 'zài',
         spanish: 'estar / en',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img33.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 36,       chinese: '会',
+        id: 36,
+        chinese: '会',
         pinyin: 'huì',
         spanish: 'saber / poder',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img34.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 37,       chinese: '能',
+        id: 37,
+        chinese: '能',
         pinyin: 'néng',
         spanish: 'poder',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img35.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 38,       chinese: '给',
+        id: 38,
+        chinese: '给',
         pinyin: 'gěi',
         spanish: 'dar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img36.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 39,       chinese: '学',
+        id: 39,
+        chinese: '学',
         pinyin: 'xué',
         spanish: 'estudiar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img37.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 40,       chinese: '问',
+        id: 40,
+        chinese: '问',
         pinyin: 'wèn',
         spanish: 'preguntar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img38.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 41,       chinese: '写',
+        id: 41,
+        chinese: '写',
         pinyin: 'xiě',
         spanish: 'escribir',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img39.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 42,       chinese: '读',
+        id: 42,
+        chinese: '读',
         pinyin: 'dú',
         spanish: 'leer',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img40.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 43,       chinese: '看',
+        id: 43,
+        chinese: '看',
         pinyin: 'kàn',
         spanish: 'mirar / ver / leer',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img41.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 44,       chinese: '说',
+        id: 44,
+        chinese: '说',
         pinyin: 'shuō',
         spanish: 'hablar / decir',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img42.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 45,       chinese: '来',
+        id: 45,
+        chinese: '来',
         pinyin: 'lái',
         spanish: 'venir',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img43.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 46,       chinese: '回',
+        id: 46,
+        chinese: '回',
         pinyin: 'huí',
         spanish: 'volver',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img43.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 47,       chinese: '过',
+        id: 47,
+        chinese: '过',
         pinyin: 'guò',
         spanish: 'pasar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img44.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 48,       chinese: '听',
+        id: 48,
+        chinese: '听',
         pinyin: 'tīng',
         spanish: 'escuchar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img45.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 49,       chinese: '唱',
+        id: 49,
+        chinese: '唱',
         pinyin: 'chàng',
         spanish: 'cantar',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img46.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 50,       chinese: '吃',
+        id: 50,
+        chinese: '吃',
         pinyin: 'chī',
         spanish: 'comer',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img47.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 51,       chinese: '喝',
+        id: 51,
+        chinese: '喝',
         pinyin: 'hē',
         spanish: 'beber',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img48.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 52,       chinese: '要',
+        id: 52,
+        chinese: '要',
         pinyin: 'yào',
         spanish: 'querer / tener que',
         category: 'verbos',
-        image: '/assets/images/img1.png',
+        image: '/assets/images/img49.png',
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 53,       chinese: '开',
+        id: 53,
+        chinese: '开',
         pinyin: 'kāi',
         spanish: 'prender / abrir',
         category: 'verbos',
@@ -426,7 +470,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 54,       chinese: '关',
+        id: 54,
+        chinese: '关',
         pinyin: 'guān',
         spanish: 'apagar / cerrar',
         category: 'verbos',
@@ -434,7 +479,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 55,       chinese: '开始',
+        id: 55,
+        chinese: '开始',
         pinyin: 'kāi shǐ',
         spanish: 'empezar',
         category: 'verbos',
@@ -442,7 +488,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 56,       chinese: '等',
+        id: 56,
+        chinese: '等',
         pinyin: 'děng',
         spanish: 'esperar',
         category: 'verbos',
@@ -450,7 +497,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 57,       chinese: '找',
+        id: 57,
+        chinese: '找',
         pinyin: 'zhǎo',
         spanish: 'buscar',
         category: 'verbos',
@@ -458,7 +506,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 58,       chinese: '猜',
+        id: 58,
+        chinese: '猜',
         pinyin: 'cāi',
         spanish: 'adivinar',
         category: 'verbos',
@@ -466,7 +515,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 59,       chinese: '改变',
+        id: 59,
+        chinese: '改变',
         pinyin: 'gǎi biàn',
         spanish: 'cambiar',
         category: 'verbos',
@@ -474,7 +524,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 60,       chinese: '帮',
+        id: 60,
+        chinese: '帮',
         pinyin: 'bāng',
         spanish: 'ayudar',
         category: 'verbos',
@@ -482,7 +533,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 61,       chinese: '亲',
+        id: 61,
+        chinese: '亲',
         pinyin: 'qīn',
         spanish: 'besar',
         category: 'verbos',
@@ -490,7 +542,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 62,       chinese: '买',
+        id: 62,
+        chinese: '买',
         pinyin: 'mǎi',
         spanish: 'comprar',
         category: 'verbos',
@@ -498,7 +551,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 63,       chinese: '卖',
+        id: 63,
+        chinese: '卖',
         pinyin: 'mài',
         spanish: 'vender',
         category: 'verbos',
@@ -506,7 +560,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 64,       chinese: '住',
+        id: 64,
+        chinese: '住',
         pinyin: 'zhù',
         spanish: 'vivir',
         category: 'verbos',
@@ -514,7 +569,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 65,       chinese: '租',
+        id: 65,
+        chinese: '租',
         pinyin: 'zū',
         spanish: 'alquilar',
         category: 'verbos',
@@ -522,7 +578,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 66,       chinese: '到',
+        id: 66,
+        chinese: '到',
         pinyin: 'dào',
         spanish: 'llegar',
         category: 'verbos',
@@ -530,7 +587,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 67,       chinese: '让',
+        id: 67,
+        chinese: '让',
         pinyin: 'ràng',
         spanish: 'dejar / permitir',
         category: 'verbos',
@@ -538,7 +596,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 68,       chinese: '告诉',
+        id: 68,
+        chinese: '告诉',
         pinyin: 'gào su',
         spanish: 'avisar / advertir',
         category: 'verbos',
@@ -546,7 +605,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 69,       chinese: '觉得',
+        id: 69,
+        chinese: '觉得',
         pinyin: 'jué de',
         spanish: 'creer / sentir',
         category: 'verbos',
@@ -554,7 +614,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 70,       chinese: '应该',
+        id: 70,
+        chinese: '应该',
         pinyin: 'yīng gāi',
         spanish: 'deber',
         category: 'verbos',
@@ -562,7 +623,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 71,       chinese: '选',
+        id: 71,
+        chinese: '选',
         pinyin: 'xuǎn',
         spanish: 'elegir',
         category: 'verbos',
@@ -570,7 +632,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 72,       chinese: '工作',
+        id: 72,
+        chinese: '工作',
         pinyin: 'gōng zuò',
         spanish: 'trabajar',
         category: 'verbos',
@@ -578,7 +641,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 73,       chinese: '走',
+        id: 73,
+        chinese: '走',
         pinyin: 'zǒu',
         spanish: 'caminar / irse',
         category: 'verbos',
@@ -586,7 +650,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 74,       chinese: '跑',
+        id: 74,
+        chinese: '跑',
         pinyin: 'pǎo',
         spanish: 'correr',
         category: 'verbos',
@@ -594,7 +659,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 75,       chinese: '追',
+        id: 75,
+        chinese: '追',
         pinyin: 'zhuī',
         spanish: 'perseguir',
         category: 'verbos',
@@ -602,7 +668,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 76,       chinese: '上',
+        id: 76,
+        chinese: '上',
         pinyin: 'shàng',
         spanish: 'subir',
         category: 'verbos',
@@ -610,7 +677,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 77,       chinese: '下',
+        id: 77,
+        chinese: '下',
         pinyin: 'xià',
         spanish: 'bajar',
         category: 'verbos',
@@ -618,7 +686,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 78,       chinese: '穿',
+        id: 78,
+        chinese: '穿',
         pinyin: 'chuān',
         spanish: 'vestir',
         category: 'verbos',
@@ -626,7 +695,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 79,       chinese: '带',
+        id: 79,
+        chinese: '带',
         pinyin: 'dài',
         spanish: 'llevar / traer',
         category: 'verbos',
@@ -634,7 +704,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 80,       chinese: '摸',
+        id: 80,
+        chinese: '摸',
         pinyin: 'mō',
         spanish: 'tocar',
         category: 'verbos',
@@ -642,7 +713,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 81,       chinese: '数',
+        id: 81,
+        chinese: '数',
         pinyin: 'shǔ',
         spanish: 'contar',
         category: 'verbos',
@@ -650,7 +722,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 82,       chinese: '跳舞',
+        id: 82,
+        chinese: '跳舞',
         pinyin: 'tiào wǔ',
         spanish: 'bailar',
         category: 'verbos',
@@ -658,7 +731,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 83,       chinese: '进',
+        id: 83,
+        chinese: '进',
         pinyin: 'jìn',
         spanish: 'entrar',
         category: 'verbos',
@@ -666,7 +740,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 84,       chinese: '出',
+        id: 84,
+        chinese: '出',
         pinyin: 'chū',
         spanish: 'salir',
         category: 'verbos',
@@ -674,7 +749,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 85,       chinese: '起来',
+        id: 85,
+        chinese: '起来',
         pinyin: 'qǐ lái',
         spanish: 'levantarse',
         category: 'verbos',
@@ -682,7 +758,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 86,       chinese: '放',
+        id: 86,
+        chinese: '放',
         pinyin: 'fàng',
         spanish: 'poner',
         category: 'verbos',
@@ -690,7 +767,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 87,       chinese: '换',
+        id: 87,
+        chinese: '换',
         pinyin: 'huàn',
         spanish: 'cambiar',
         category: 'verbos',
@@ -698,7 +776,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 88,       chinese: '决定',
+        id: 88,
+        chinese: '决定',
         pinyin: 'jué dìng',
         spanish: 'decidir',
         category: 'verbos',
@@ -706,7 +785,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 89,       chinese: '取消',
+        id: 89,
+        chinese: '取消',
         pinyin: 'qǔ xiāo',
         spanish: 'cancelar',
         category: 'verbos',
@@ -714,7 +794,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 90,       chinese: '知道',
+        id: 90,
+        chinese: '知道',
         pinyin: 'zhī dào',
         spanish: 'saber',
         category: 'verbos',
@@ -722,7 +803,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 91,       chinese: '认识',
+        id: 91,
+        chinese: '认识',
         pinyin: 'rèn shi',
         spanish: 'conocer',
         category: 'verbos',
@@ -730,7 +812,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 92,       chinese: '明白',
+        id: 92,
+        chinese: '明白',
         pinyin: 'míng bái',
         spanish: 'entender',
         category: 'verbos',
@@ -738,7 +821,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 93,       chinese: '接',
+        id: 93,
+        chinese: '接',
         pinyin: 'jiē',
         spanish: 'contestar',
         category: 'verbos',
@@ -746,7 +830,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 94,       chinese: '回答',
+        id: 94,
+        chinese: '回答',
         pinyin: 'huí dá',
         spanish: 'responder',
         category: 'verbos',
@@ -754,7 +839,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 95,       chinese: '当',
+        id: 95,
+        chinese: '当',
         pinyin: 'dāng',
         spanish: 'convertirse en',
         category: 'verbos',
@@ -762,7 +848,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 96,       chinese: '懂',
+        id: 96,
+        chinese: '懂',
         pinyin: 'dǒng',
         spanish: 'entender',
         category: 'verbos',
@@ -770,7 +857,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 97,       chinese: '玩',
+        id: 97,
+        chinese: '玩',
         pinyin: 'wán',
         spanish: 'jugar',
         category: 'verbos',
@@ -778,7 +866,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 98,       chinese: '撒谎',
+        id: 98,
+        chinese: '撒谎',
         pinyin: 'sā huǎng',
         spanish: 'mentir',
         category: 'verbos',
@@ -786,7 +875,8 @@ db = [
         audio: '/assets/audios/audio1.mp3'
     },
     { 
-        id: 99,       chinese: '骗',
+        id: 99,
+        chinese: '骗',
         pinyin: 'piàn',
         spanish: 'engañar',
         category: 'verbos',
@@ -3189,7 +3279,7 @@ db = [
         spanish: 'desayuno',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 366,
@@ -3198,7 +3288,7 @@ db = [
         spanish: 'almuerzo',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 367,
@@ -3207,7 +3297,7 @@ db = [
         spanish: 'cena',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 368,
@@ -3216,7 +3306,7 @@ db = [
         spanish: 'leche',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 369,
@@ -3225,7 +3315,7 @@ db = [
         spanish: 'café',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 370,
@@ -3234,7 +3324,7 @@ db = [
         spanish: 'pan',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 371,
@@ -3243,7 +3333,7 @@ db = [
         spanish: 'huevo',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 372,
@@ -3252,7 +3342,7 @@ db = [
         spanish: 'zumo',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 373,
@@ -3261,7 +3351,7 @@ db = [
         spanish: 'agua',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 374,
@@ -3270,7 +3360,7 @@ db = [
         spanish: 'fruta',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 375,
@@ -3279,7 +3369,7 @@ db = [
         spanish: 'manzana',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 376,
@@ -3288,7 +3378,7 @@ db = [
         spanish: 'naranja',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 377,
@@ -3297,7 +3387,7 @@ db = [
         spanish: 'sandía',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 378,
@@ -3306,7 +3396,7 @@ db = [
         spanish: 'uva',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 379,
@@ -3315,7 +3405,7 @@ db = [
         spanish: 'durazno',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 380,
@@ -3324,7 +3414,7 @@ db = [
         spanish: 'banana',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 381,
@@ -3333,7 +3423,7 @@ db = [
         spanish: 'mango',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 382,
@@ -3342,7 +3432,7 @@ db = [
         spanish: 'frutilla',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 383,
@@ -3351,7 +3441,7 @@ db = [
         spanish: 'soja',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 384,
@@ -3360,7 +3450,7 @@ db = [
         spanish: 'coca-cola',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 385,
@@ -3369,7 +3459,7 @@ db = [
         spanish: 'fanta',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 386,
@@ -3378,7 +3468,7 @@ db = [
         spanish: 'sprite',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 387,
@@ -3387,7 +3477,7 @@ db = [
         spanish: 'té',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 388,
@@ -3396,7 +3486,7 @@ db = [
         spanish: 'alcohol / licor',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 389,
@@ -3405,7 +3495,7 @@ db = [
         spanish: 'cerveza',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 390,
@@ -3414,7 +3504,7 @@ db = [
         spanish: 'vino',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 391,
@@ -3423,7 +3513,7 @@ db = [
         spanish: 'carne',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 392,
@@ -3432,7 +3522,7 @@ db = [
         spanish: 'carne de vaca',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 393,
@@ -3441,7 +3531,7 @@ db = [
         spanish: 'carne de cerdo',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 394,
@@ -3450,7 +3540,7 @@ db = [
         spanish: 'carne de cordero',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 395,
@@ -3459,7 +3549,7 @@ db = [
         spanish: 'pescados y mariscos',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 396,
@@ -3468,7 +3558,7 @@ db = [
         spanish: 'hot pot',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 397,
@@ -3477,7 +3567,7 @@ db = [
         spanish: 'bao zi',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 398,
@@ -3486,7 +3576,7 @@ db = [
         spanish: 'dumplings',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 399,
@@ -3495,7 +3585,7 @@ db = [
         spanish: 'arroz',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 400,
@@ -3504,7 +3594,7 @@ db = [
         spanish: 'hamburguesa',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 401,
@@ -3513,7 +3603,7 @@ db = [
         spanish: 'pizza',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 402,
@@ -3522,7 +3612,7 @@ db = [
         spanish: 'fideos',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 403,
@@ -3531,7 +3621,7 @@ db = [
         spanish: 'papa',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
     },
     {
         id: 404,
@@ -3540,9 +3630,2190 @@ db = [
         spanish: 'zanahoria',
         category: 'comida',
         image: '/assets/images/img1.png',
-        audio: '/assets/audios/'
+        audio: '/assets/audios/audio1.mp3'
+    },
+    // Adjetivos
+    {
+        id: 405,
+        chinese: '漂亮',
+        pinyin: 'piào liàng',
+        spanish: 'linda / hermosa',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 406,
+        chinese: '帅',
+        pinyin: 'shuài',
+        spanish: 'guapo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 407,
+        chinese: '高兴',
+        pinyin: 'gāo xìng',
+        spanish: 'contento',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 408,
+        chinese: '开心',
+        pinyin: 'kāi xīn',
+        spanish: 'feliz',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 409,
+        chinese: '可爱',
+        pinyin: 'kě ài',
+        spanish: 'adorable',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 410,
+        chinese: '难',
+        pinyin: 'nán',
+        spanish: 'difícil',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 411,
+        chinese: '简单',
+        pinyin: 'jiǎn dān',
+        spanish: 'fácil',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 412,
+        chinese: '美',
+        pinyin: 'měi',
+        spanish: 'bello',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 413,
+        chinese: '难看',
+        pinyin: 'nán kàn',
+        spanish: 'feo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 414,
+        chinese: '丑',
+        pinyin: 'chǒu',
+        spanish: 'horrible',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 415,
+        chinese: '好玩',
+        pinyin: 'hǎo wán',
+        spanish: 'divertido / gracioso',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 416,
+        chinese: '好笑',
+        pinyin: 'hǎo xiào',
+        spanish: 'divertido / entretenido',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 417,
+        chinese: '好听',
+        pinyin: 'hǎo tīng',
+        spanish: 'agradable de escuchar',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 418,
+        chinese: '好看',
+        pinyin: 'hǎo kàn',
+        spanish: 'agradable de ver',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 419,
+        chinese: '好吃',
+        pinyin: 'hǎo chī',
+        spanish: 'agradable de comer',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 420,
+        chinese: '好喝',
+        pinyin: 'hǎo hē',
+        spanish: 'agradable de beber',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 421,
+        chinese: '早',
+        pinyin: 'zǎo',
+        spanish: 'temprano',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 422,
+        chinese: '晚',
+        pinyin: 'wǎn',
+        spanish: 'tarde',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 423,
+        chinese: '大',
+        pinyin: 'dà',
+        spanish: 'grande',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 424,
+        chinese: '小',
+        pinyin: 'xiǎo',
+        spanish: 'pequeño',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 425,
+        chinese: '热',
+        pinyin: 'rè',
+        spanish: 'caliente / caluroso',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 426,
+        chinese: '冷',
+        pinyin: 'lěng',
+        spanish: 'frío (negativo)',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 427,
+        chinese: '凉',
+        pinyin: 'liáng',
+        spanish: 'frío (agradable)',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 428,
+        chinese: '舒服',
+        pinyin: 'shū fu',
+        spanish: 'cómodo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 429,
+        chinese: '新',
+        pinyin: 'xīn',
+        spanish: 'nuevo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 430,
+        chinese: '老',
+        pinyin: 'lǎo',
+        spanish: 'viejo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 431,
+        chinese: '一样',
+        pinyin: 'yī yàng',
+        spanish: 'igual',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 432,
+        chinese: '干净',
+        pinyin: 'gān jìng',
+        spanish: 'limpio',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 433,
+        chinese: '脏',
+        pinyin: 'zāng',
+        spanish: 'sucio',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 434,
+        chinese: '坏',
+        pinyin: 'huài',
+        spanish: 'malo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 435,
+        chinese: '真',
+        pinyin: 'zhēn',
+        spanish: 'verdadero',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 436,
+        chinese: '假',
+        pinyin: 'jiǎ',
+        spanish: 'falso',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 437,
+        chinese: '对',
+        pinyin: 'duì',
+        spanish: 'correcto',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 438,
+        chinese: '厉害',
+        pinyin: 'lì hai',
+        spanish: 'grandioso / impresionante',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 439,
+        chinese: '酷',
+        pinyin: 'kù',
+        spanish: 'cool / copado',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 440,
+        chinese: '无聊',
+        pinyin: 'wú liáo',
+        spanish: 'aburrido',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 441,
+        chinese: '有意思',
+        pinyin: 'yǒu yì si',
+        spanish: 'interesante',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 442,
+        chinese: '棒',
+        pinyin: 'bàng',
+        spanish: 'genial',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 443,
+        chinese: '浪漫',
+        pinyin: 'làng màn',
+        spanish: 'romántico',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 444,
+        chinese: '胖',
+        pinyin: 'pàng',
+        spanish: 'gordo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 445,
+        chinese: '瘦',
+        pinyin: 'shòu',
+        spanish: 'delgado',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 446,
+        chinese: '忙',
+        pinyin: 'máng',
+        spanish: 'ocupado',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 447,
+        chinese: '懒',
+        pinyin: 'lǎn',
+        spanish: 'perezoso / vago',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 448,
+        chinese: '累',
+        pinyin: 'lèi',
+        spanish: 'cansado',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 449,
+        chinese: '贵',
+        pinyin: 'guì',
+        spanish: 'caro',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 450,
+        chinese: '便宜',
+        pinyin: 'pián yí',
+        spanish: 'barato',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 451,
+        chinese: '饿',
+        pinyin: 'è',
+        spanish: 'hambriento',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 452,
+        chinese: '渴',
+        pinyin: 'kě',
+        spanish: 'sediento',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 453,
+        chinese: '饱',
+        pinyin: 'bǎo',
+        spanish: 'lleno / saciado',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 454,
+        chinese: '远',
+        pinyin: 'yuǎn',
+        spanish: 'lejos',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 455,
+        chinese: '近',
+        pinyin: 'jìn',
+        spanish: 'cerca',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 456,
+        chinese: '快',
+        pinyin: 'kuài',
+        spanish: 'rápido',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 457,
+        chinese: '慢',
+        pinyin: 'màn',
+        spanish: 'lento',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 458,
+        chinese: '高',
+        pinyin: 'gāo',
+        spanish: 'alto',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 459,
+        chinese: '矮',
+        pinyin: 'ǎi',
+        spanish: 'bajo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 460,
+        chinese: '短',
+        pinyin: 'duǎn',
+        spanish: 'corto',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 461,
+        chinese: '长',
+        pinyin: 'cháng',
+        spanish: 'largo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 462,
+        chinese: '烦',
+        pinyin: 'fán',
+        spanish: 'molesto',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 463,
+        chinese: '暗',
+        pinyin: 'àn',
+        spanish: 'oscuro',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 464,
+        chinese: '有名',
+        pinyin: 'yǒu míng',
+        spanish: 'famoso',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 465,
+        chinese: '普通',
+        pinyin: 'pǔ tōng',
+        spanish: 'común',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 466,
+        chinese: '重要',
+        pinyin: 'zhòng yào',
+        spanish: 'importante',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 467,
+        chinese: '聪明',
+        pinyin: 'cōng míng',
+        spanish: 'inteligente',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 468,
+        chinese: '笨',
+        pinyin: 'bèn',
+        spanish: 'tonto',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 469,
+        chinese: '清楚',
+        pinyin: 'qīng chu',
+        spanish: 'claro / claridad',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 470,
+        chinese: '乱',
+        pinyin: 'luàn',
+        spanish: 'desordenado',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 471,
+        chinese: '甜',
+        pinyin: 'tián',
+        spanish: 'dulce',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 472,
+        chinese: '辣',
+        pinyin: 'là',
+        spanish: 'picante',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 473,
+        chinese: '苦',
+        pinyin: 'kǔ',
+        spanish: 'amargo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 474,
+        chinese: '酸',
+        pinyin: 'suān',
+        spanish: 'agrio',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 475,
+        chinese: '唯一',
+        pinyin: 'wéi yī',
+        spanish: 'único',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 476,
+        chinese: '满意',
+        pinyin: 'mǎn yì',
+        spanish: 'conforme / satisfecho',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 477,
+        chinese: '生气',
+        pinyin: 'shēng qì',
+        spanish: 'enojado',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 478,
+        chinese: '奇怪',
+        pinyin: 'qí guài',
+        spanish: 'raro / extraño',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 479,
+        chinese: '尴尬',
+        pinyin: 'gān gà',
+        spanish: 'incómodo',
+        category: 'adjetivos',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 480,
+        chinese: '日期',
+        pinyin: 'rì qī',
+        spanish: 'fecha',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 481,
+        chinese: '年',
+        pinyin: 'nián',
+        spanish: 'año',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 482,
+        chinese: '月',
+        pinyin: 'yuè',
+        spanish: 'mes',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 483,
+        chinese: '一月',
+        pinyin: 'yī yuè',
+        spanish: 'enero',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 484,
+        chinese: '二月',
+        pinyin: 'èr yuè',
+        spanish: 'febrero',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 485,
+        chinese: '三月',
+        pinyin: 'sān yuè',
+        spanish: 'marzo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 486,
+        chinese: '四月',
+        pinyin: 'sì yuè',
+        spanish: 'abril',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 487,
+        chinese: '五月',
+        pinyin: 'wǔ yuè',
+        spanish: 'mayo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 488,
+        chinese: '六月',
+        pinyin: 'liù yuè',
+        spanish: 'junio',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 489,
+        chinese: '七月',
+        pinyin: 'qī yuè',
+        spanish: 'julio',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 490,
+        chinese: '八月',
+        pinyin: 'bā yuè',
+        spanish: 'agosto',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 491,
+        chinese: '九月',
+        pinyin: 'jiǔ yuè',
+        spanish: 'septiembre',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 492,
+        chinese: '十月',
+        pinyin: 'shí yuè',
+        spanish: 'octubre',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 493,
+        chinese: '十一月',
+        pinyin: 'shí yī yuè',
+        spanish: 'noviembre',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 494,
+        chinese: '十二月',
+        pinyin: 'shí èr yuè',
+        spanish: 'diciembre',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 495,
+        chinese: '日',
+        pinyin: 'rì',
+        spanish: 'día',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 496,
+        chinese: '天',
+        pinyin: 'tiān',
+        spanish: 'día',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 497,
+        chinese: '今天',
+        pinyin: 'jīn tiān',
+        spanish: 'hoy',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 498,
+        chinese: '明天',
+        pinyin: 'míng tiān',
+        spanish: 'mañana',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 499,
+        chinese: '后天',
+        pinyin: 'hòu tiān',
+        spanish: 'pasado mañana',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 500,
+        chinese: '昨天',
+        pinyin: 'zuó tiān',
+        spanish: 'ayer',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 501,
+        chinese: '前天',
+        pinyin: 'qián tiān',
+        spanish: 'anteayer',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 502,
+        chinese: '今年',
+        pinyin: 'jīn nián',
+        spanish: 'este año',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 503,
+        chinese: '明年',
+        pinyin: 'míng nián',
+        spanish: 'el año próximo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 504,
+        chinese: '周',
+        pinyin: 'zhōu',
+        spanish: 'semana',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 505,
+        chinese: '星期',
+        pinyin: 'xīng qī',
+        spanish: 'semana',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 506,
+        chinese: '这个星期',
+        pinyin: 'zhè gè xīng qī',
+        spanish: 'esta semana',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 507,
+        chinese: '下个星期',
+        pinyin: 'xià gè xīng qī',
+        spanish: 'la semana que viene',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 508,
+        chinese: '上个星期',
+        pinyin: 'shàng gè xīng qī',
+        spanish: 'la semana pasada',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 509,
+        chinese: '这个月',
+        pinyin: 'zhè gè yuè',
+        spanish: 'este mes',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 510,
+        chinese: '下个月',
+        pinyin: 'xià gè yuè',
+        spanish: 'el mes que viene',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 511,
+        chinese: '上个月',
+        pinyin: 'shàng gè yuè',
+        spanish: 'el mes pasado',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 512,
+        chinese: '星期一',
+        pinyin: 'xīng qī yī',
+        spanish: 'lunes',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 513,
+        chinese: '星期二',
+        pinyin: 'xīng qī èr',
+        spanish: 'martes',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 514,
+        chinese: '星期三',
+        pinyin: 'xīng qī sān',
+        spanish: 'miércoles',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 515,
+        chinese: '星期四',
+        pinyin: 'xīng qī sì',
+        spanish: 'jueves',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 516,
+        chinese: '星期五',
+        pinyin: 'xīng qī wǔ',
+        spanish: 'viernes',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 517,
+        chinese: '星期六',
+        pinyin: 'xīng qī liù',
+        spanish: 'sábado',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 518,
+        chinese: '星期天',
+        pinyin: 'xīng qī tiān',
+        spanish: 'domingo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 519,
+        chinese: '星期日',
+        pinyin: 'xīng qī rì',
+        spanish: 'domingo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 520,
+        chinese: '周日',
+        pinyin: 'zhōu rì',
+        spanish: 'domingo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 521,
+        chinese: '时间',
+        pinyin: 'shí jiān',
+        spanish: 'tiempo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 522,
+        chinese: '早上',
+        pinyin: 'zǎo shàng',
+        spanish: 'madrugada',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 523,
+        chinese: '上午',
+        pinyin: 'shàng wǔ',
+        spanish: 'por la mañana',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 524,
+        chinese: '中午',
+        pinyin: 'zhōng wǔ',
+        spanish: 'mediodía',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 525,
+        chinese: '下午',
+        pinyin: 'xià wǔ',
+        spanish: 'por la tarde',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 526,
+        chinese: '晚上',
+        pinyin: 'wǎn shàng',
+        spanish: 'por la noche',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 527,
+        chinese: '白天',
+        pinyin: 'bái tiān',
+        spanish: 'durante el día',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 528,
+        chinese: '小时',
+        pinyin: 'xiǎo shí',
+        spanish: 'hora',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 529,
+        chinese: '分钟',
+        pinyin: 'fēn zhōng',
+        spanish: 'minuto',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 530,
+        chinese: '秒钟',
+        pinyin: 'miǎo zhōng',
+        spanish: 'segundo',
+        category: 'fechas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 531,
+        chinese: '和',
+        pinyin: 'hé',
+        spanish: 'y (solo para sustantivos)',
+        category: 'conectores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 532,
+        chinese: '也',
+        pinyin: 'yě',
+        spanish: 'también',
+        category: 'conectores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 533,
+        chinese: '还',
+        pinyin: 'hái',
+        spanish: 'además / aún',
+        category: 'conectores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 534,
+        chinese: '还是',
+        pinyin: 'hái shì',
+        spanish: 'o (para preguntas)',
+        category: 'conectores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 535,
+        chinese: '或者',
+        pinyin: 'huò zhě',
+        spanish: 'o (para afirmaciones)',
+        category: 'conectores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 536,
+        chinese: '跟',
+        pinyin: 'gēn',
+        spanish: 'con (alguien)',
+        category: 'conectores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 537,
+        chinese: '陪',
+        pinyin: 'péi',
+        spanish: 'acompañar',
+        category: 'conectores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 538,
+        chinese: '比',
+        pinyin: 'bǐ',
+        spanish: 'más que (entre 2 cosas)',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 539,
+        chinese: '比较',
+        pinyin: 'bǐ jiào',
+        spanish: 'más (que alguien)',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 540,
+        chinese: '多了',
+        pinyin: 'duō le',
+        spanish: 'mucho más',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 541,
+        chinese: '一样',
+        pinyin: 'yí yàng',
+        spanish: 'igual',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 542,
+        chinese: '更',
+        pinyin: 'gèng',
+        spanish: 'aún más',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 543,
+        chinese: '最',
+        pinyin: 'zuì',
+        spanish: 'el más / lo que más',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 544,
+        chinese: '最好',
+        pinyin: 'zuì hǎo',
+        spanish: 'lo mejor es (recomendación)',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 545,
+        chinese: '都',
+        pinyin: 'dōu',
+        spanish: 'todos (totalizar)',
+        category: 'comparadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 546,
+        chinese: '但是',
+        pinyin: 'dàn shì',
+        spanish: 'pero (formal)',
+        category: 'negación',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 547,
+        chinese: '可是',
+        pinyin: 'kě shì',
+        spanish: 'pero (coloquial)',
+        category: 'negación',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 548,
+        chinese: '虽然',
+        pinyin: 'suī rán',
+        spanish: 'aunque',
+        category: 'negación',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 549,
+        chinese: '不',
+        pinyin: 'bù',
+        spanish: 'no (presente)',
+        category: 'negación',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 550,
+        chinese: '没',
+        pinyin: 'méi',
+        spanish: 'no (pasado)',
+        category: 'negación',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 551,
+        chinese: '没有',
+        pinyin: 'méi yǒu',
+        spanish: 'no tengo',
+        category: 'negación',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 552,
+        chinese: '别',
+        pinyin: 'bié',
+        spanish: 'no hagas / deja de hacer',
+        category: 'negación',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 553,
+        chinese: '很',
+        pinyin: 'hěn',
+        spanish: 'eres (moderadamente)',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 554,
+        chinese: '特别',
+        pinyin: 'tè bié',
+        spanish: 'muy',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 555,
+        chinese: '非常',
+        pinyin: 'fēi cháng',
+        spanish: 'extremadamente',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 556,
+        chinese: '超级',
+        pinyin: 'chāo jí',
+        spanish: 'súper / ultra',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 557,
+        chinese: '太...了',
+        pinyin: 'tài...le',
+        spanish: 'demasiado',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 558,
+        chinese: '好',
+        pinyin: 'hǎo',
+        spanish: 'bastante',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 559,
+        chinese: '真',
+        pinyin: 'zhēn',
+        spanish: 'realmente',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 560,
+        chinese: '那么',
+        pinyin: 'nà me',
+        spanish: 'tan (sorpresa)',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 561,
+        chinese: '这么',
+        pinyin: 'zhè me',
+        spanish: 'tan (algo evidente)',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 562,
+        chinese: '挺',
+        pinyin: 'tǐng',
+        spanish: 'bastante',
+        category: 'adverbios de grado',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 563,
+        chinese: '个',
+        pinyin: 'gè',
+        spanish: 'clasificador general',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 564,
+        chinese: '位',
+        pinyin: 'wèi',
+        spanish: 'clasificador de cortesía',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 565,
+        chinese: '口',
+        pinyin: 'kǒu',
+        spanish: 'miembros de la familia',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 566,
+        chinese: '本',
+        pinyin: 'běn',
+        spanish: 'para libros o cuadernos',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 567,
+        chinese: '岁',
+        pinyin: 'suì',
+        spanish: 'para la edad',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 568,
+        chinese: '些',
+        pinyin: 'xiē',
+        spanish: 'cantidad indefinida',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 569,
+        chinese: '头',
+        pinyin: 'tóu',
+        spanish: 'para animales grandes',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 570,
+        chinese: '只',
+        pinyin: 'zhī',
+        spanish: 'para animales pequeños',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 571,
+        chinese: '只',
+        pinyin: 'zhī',
+        spanish: 'para cosas de a pares',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 572,
+        chinese: '双',
+        pinyin: 'shuāng',
+        spanish: 'pares de cosas',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 573,
+        chinese: '支',
+        pinyin: 'zhī',
+        spanish: 'para objetos pequeños y alargados',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 574,
+        chinese: '根',
+        pinyin: 'gēn',
+        spanish: 'para objetos grandes y alargados',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 575,
+        chinese: '辆',
+        pinyin: 'liàng',
+        spanish: 'para vehículos con ruedas',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 576,
+        chinese: '块',
+        pinyin: 'kuài',
+        spanish: 'para pedazos o trozos',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 577,
+        chinese: '元',
+        pinyin: 'yuán',
+        spanish: 'para dinero',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 578,
+        chinese: '毛',
+        pinyin: 'máo',
+        spanish: 'para céntimos',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 579,
+        chinese: '台',
+        pinyin: 'tái',
+        spanish: 'para aparatos electrónicos',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 580,
+        chinese: '家',
+        pinyin: 'jiā',
+        spanish: 'para tiendas y empresas',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 581,
+        chinese: '座',
+        pinyin: 'zuò',
+        spanish: 'para edificaciones',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 582,
+        chinese: '杯',
+        pinyin: 'bēi',
+        spanish: 'para copas o vasos',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 583,
+        chinese: '次',
+        pinyin: 'cì',
+        spanish: 'para contar veces',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 584,
+        chinese: '瓶',
+        pinyin: 'píng',
+        spanish: 'para contar botellas',
+        category: 'clasificadores',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 585,
+        chinese: '天气',
+        pinyin: 'tiān qì',
+        spanish: 'clima',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 586,
+        chinese: '太阳',
+        pinyin: 'tài yáng',
+        spanish: 'sol',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 587,
+        chinese: '云',
+        pinyin: 'yún',
+        spanish: 'nube',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 588,
+        chinese: '雨',
+        pinyin: 'yǔ',
+        spanish: 'lluvia',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 589,
+        chinese: '雪',
+        pinyin: 'xuě',
+        spanish: 'nieve',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 590,
+        chinese: '风',
+        pinyin: 'fēng',
+        spanish: 'viento',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 591,
+        chinese: '天气好',
+        pinyin: 'tiān qì hǎo',
+        spanish: 'buen tiempo',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 592,
+        chinese: '天气不好',
+        pinyin: 'tiān qì bù hǎo',
+        spanish: 'mal tiempo',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 593,
+        chinese: '温度',
+        pinyin: 'wēn dù',
+        spanish: 'temperatura',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 594,
+        chinese: '度',
+        pinyin: 'dù',
+        spanish: 'grados',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 595,
+        chinese: '季节',
+        pinyin: 'jì jié',
+        spanish: 'estaciones del año',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 596,
+        chinese: '春天',
+        pinyin: 'chūn tiān',
+        spanish: 'primavera',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 597,
+        chinese: '夏天',
+        pinyin: 'xià tiān',
+        spanish: 'verano',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 598,
+        chinese: '秋天',
+        pinyin: 'qiū tiān',
+        spanish: 'otoño',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 599,
+        chinese: '冬天',
+        pinyin: 'dōng tiān',
+        spanish: 'invierno',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 600,
+        chinese: '晴天',
+        pinyin: 'qíng tiān',
+        spanish: 'soleado / despejado',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 601,
+        chinese: '零下',
+        pinyin: 'líng xià',
+        spanish: 'bajo cero',
+        category: 'clima',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 602,
+        chinese: '现在',
+        pinyin: 'xiàn zài',
+        spanish: 'ahora',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 603,
+        chinese: '以后',
+        pinyin: 'yǐ hòu',
+        spanish: 'después',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 604,
+        chinese: '以前',
+        pinyin: 'yǐ qián',
+        spanish: 'antes',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 605,
+        chinese: '刚才',
+        pinyin: 'gāng cái',
+        spanish: 'hace un momento',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 606,
+        chinese: '每个',
+        pinyin: 'měi gè',
+        spanish: 'cada',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 607,
+        chinese: '常常',
+        pinyin: 'cháng cháng',
+        spanish: 'a menudo',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 608,
+        chinese: '经常',
+        pinyin: 'jīng cháng',
+        spanish: 'a menudo',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 609,
+        chinese: '有时',
+        pinyin: 'yǒu shí',
+        spanish: 'a veces',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 610,
+        chinese: '刚',
+        pinyin: 'gāng',
+        spanish: 'ahora mismo',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 611,
+        chinese: '已经',
+        pinyin: 'yǐ jīng',
+        spanish: 'ya (terminado)',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 612,
+        chinese: '马上',
+        pinyin: 'mǎ shàng',
+        spanish: 'inmediatamente',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 613,
+        chinese: '然后',
+        pinyin: 'rán hòu',
+        spanish: 'entonces',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 614,
+        chinese: '一下',
+        pinyin: 'yí xià',
+        spanish: 'un rato',
+        category: 'adverbios de tiempo',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 615,
+        chinese: '总是',
+        pinyin: 'zǒng shì',
+        spanish: 'siempre',
+        category: 'adverbios de frecuencia',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 616,
+        chinese: '经常',
+        pinyin: 'jīng cháng',
+        spanish: 'a menudo',
+        category: 'adverbios de frecuencia',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 617,
+        chinese: '有时',
+        pinyin: 'yǒu shí',
+        spanish: 'a veces',
+        category: 'adverbios de frecuencia',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 618,
+        chinese: '从不',
+        pinyin: 'cóng bù',
+        spanish: 'nunca',
+        category: 'adverbios de frecuencia',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 619,
+        chinese: '偶尔',
+        pinyin: 'ǒu ěr',
+        spanish: 'de vez en cuando',
+        category: 'adverbios de frecuencia',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 620,
+        chinese: '每',
+        pinyin: 'měi',
+        spanish: 'cada vez',
+        category: 'adverbios de frecuencia',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 621,
+        chinese: '快',
+        pinyin: 'kuài',
+        spanish: 'rápidamente',
+        category: 'adverbios modales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 622,
+        chinese: '慢',
+        pinyin: 'màn',
+        spanish: 'lentamente',
+        category: 'adverbios modales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 623,
+        chinese: '轻',
+        pinyin: 'qīng',
+        spanish: 'suavemente',
+        category: 'adverbios modales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 624,
+        chinese: '可能',
+        pinyin: 'kě néng',
+        spanish: 'posiblemente',
+        category: 'adverbios modales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 625,
+        chinese: '特别',
+        pinyin: 'tè bié',
+        spanish: 'especialmente',
+        category: 'adverbios modales',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 626,
+        chinese: '再',
+        pinyin: 'zài',
+        spanish: 'de nuevo / otra vez',
+        category: 'otros adverbios',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 627,
+        chinese: '只',
+        pinyin: 'zhī',
+        spanish: 'únicamente',
+        category: 'otros adverbios',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 628,
+        chinese: '突然',
+        pinyin: 'tū rán',
+        spanish: 'de repente',
+        category: 'otros adverbios',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 629,
+        chinese: '就',
+        pinyin: 'jiù',
+        spanish: 'solo',
+        category: 'otros adverbios',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 630,
+        chinese: '一些',
+        pinyin: 'yī xiē',
+        spanish: 'algunos',
+        category: 'otros adverbios',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 631,
+        chinese: '到',
+        pinyin: 'dào',
+        spanish: 'hasta / a (destino)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 632,
+        chinese: '从',
+        pinyin: 'cóng',
+        spanish: 'desde (origen)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 633,
+        chinese: '对',
+        pinyin: 'duì',
+        spanish: 'hacia / para (destinatario)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 634,
+        chinese: '给',
+        pinyin: 'gěi',
+        spanish: 'dar a / para (destinatario)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 635,
+        chinese: '为了',
+        pinyin: 'wèi le',
+        spanish: 'para / por (propósito)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 636,
+        chinese: '向',
+        pinyin: 'xiàng',
+        spanish: 'hacia (objetivo)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 637,
+        chinese: '往',
+        pinyin: 'wǎng',
+        spanish: 'hacia (dirección)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 638,
+        chinese: '离',
+        pinyin: 'lí',
+        spanish: 'de / desde (distancia entre)',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 639,
+        chinese: '加',
+        pinyin: 'jiā',
+        spanish: 'agregar / sumar / aumentar',
+        category: 'preposiciones',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 640,
+        chinese: '什么',
+        pinyin: 'shén me',
+        spanish: 'qué (algo específico)',
+        category: 'preguntas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 641,
+        chinese: '什么时候',
+        pinyin: 'shén me shí hòu',
+        spanish: 'cuándo',
+        category: 'preguntas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 642,
+        chinese: '几',
+        pinyin: 'jǐ',
+        spanish: 'cuántos (valores pequeños)',
+        category: 'preguntas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 643,
+        chinese: '多少钱',
+        pinyin: 'duō shǎo',
+        spanish: 'cuánto (valores grandes o desconocidos)',
+        category: 'preguntas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 644,
+        chinese: '谁',
+        pinyin: 'shéi',
+        spanish: 'quién',
+        category: 'preguntas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 645,
+        chinese: '哪里',
+        pinyin: 'nǎ lǐ',
+        spanish: 'dónde',
+        category: 'preguntas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
+    },
+    {
+        id: 646,
+        chinese: '吗',
+        pinyin: 'ma',
+        spanish: 'pregunta sí o no',
+        category: 'preguntas',
+        image: '/assets/images/img1.png',
+        audio: '/assets/audios/audio1.mp3'
     }
-];
+
+]
+
 
 
 
